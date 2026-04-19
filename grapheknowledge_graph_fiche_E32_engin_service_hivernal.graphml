@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="engins_service_hivernal">
+  <data key="d0">Engins de service hivernal (ESH)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="outil_raclage">
+  <data key="d0">Outil de raclage</data>
+  <data key="d1">Component</data>
+</node>
+<node id="outil_epandage">
+  <data key="d0">Outil d'épandage</data>
+  <data key="d1">Component</data>
+</node>
+<node id="depassement_arriere_max_2m">
+  <data key="d0">Dépassement extrémité arrière maximal de 2m</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="deneigement">
+  <data key="d0">Déneigement</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="viabilite_hivernale">
+  <data key="d0">Viabilité hivernale</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<edge source="engins_service_hivernal" target="outil_raclage">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="engins_service_hivernal" target="outil_epandage">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="engins_service_hivernal" target="deneigement">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="engins_service_hivernal" target="viabilite_hivernale">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="outil_epandage" target="depassement_arriere_max_2m">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+</graph></graphml>

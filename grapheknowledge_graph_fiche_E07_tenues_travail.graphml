@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="tenues_de_travail">
+  <data key="d0">Tenues de travail</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="employeur_louer_vetements">
+  <data key="d0">L'employeur doit louer les vêtements de travail</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="fournisseur_entretien_maintenance">
+  <data key="d0">Le fournisseur est chargé de l'entretien et de la maintenance des tenues</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="entretien_par_prestataire">
+  <data key="d0">Faire entretenir les vêtements de travail par un prestataire de service</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="tenues_enlevees_regulierement_entretien">
+  <data key="d0">Les tenues doivent être enlevées régulièrement pour entretien</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="entretien_en_interne">
+  <data key="d0">Effectuer l'entretien des tenues en interne</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="specification_temperature_lavage">
+  <data key="d0">Température de lavage</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="specification_nombre_lavages">
+  <data key="d0">Nombre de lavages</data>
+  <data key="d1">Specification</data>
+</node>
+<edge source="tenues_de_travail" target="employeur_louer_vetements">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="tenues_de_travail" target="fournisseur_entretien_maintenance">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="tenues_de_travail" target="entretien_par_prestataire">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="tenues_de_travail" target="tenues_enlevees_regulierement_entretien">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="tenues_de_travail" target="entretien_en_interne">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="entretien_en_interne" target="specification_temperature_lavage">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="entretien_en_interne" target="specification_nombre_lavages">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+</graph></graphml>

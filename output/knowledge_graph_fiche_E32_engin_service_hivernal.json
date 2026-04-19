@@ -1,0 +1,61 @@
+{
+    "nodes": [
+        {
+            "id": "engins_service_hivernal",
+            "label": "Engins de service hivernal (ESH)",
+            "type": "Equipment"
+        },
+        {
+            "id": "outil_raclage",
+            "label": "Outil de raclage",
+            "type": "Component"
+        },
+        {
+            "id": "outil_epandage",
+            "label": "Outil d'épandage",
+            "type": "Component"
+        },
+        {
+            "id": "depassement_arriere_max_2m",
+            "label": "Dépassement extrémité arrière maximal de 2m",
+            "type": "Specification"
+        },
+        {
+            "id": "deneigement",
+            "label": "Déneigement",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "viabilite_hivernale",
+            "label": "Viabilité hivernale",
+            "type": "Activity_Domain"
+        }
+    ],
+    "edges": [
+        {
+            "source": "engins_service_hivernal",
+            "target": "outil_raclage",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "engins_service_hivernal",
+            "target": "outil_epandage",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "outil_epandage",
+            "target": "depassement_arriere_max_2m",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "engins_service_hivernal",
+            "target": "deneigement",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "engins_service_hivernal",
+            "target": "viabilite_hivernale",
+            "type": "USED_FOR_ACTIVITY"
+        }
+    ]
+}

@@ -1,0 +1,1286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="chaussures_de_securite">
+  <data key="d0">Chaussures de sécurité</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_de_protection">
+  <data key="d0">Chaussures de protection</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_de_travail">
+  <data key="d0">Chaussures de travail</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_basses">
+  <data key="d0">Chaussures basses</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_montantes">
+  <data key="d0">Chaussures montantes</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="bottes_mi_hauteur_genou">
+  <data key="d0">Bottes à mi-hauteur du genou</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="bottes_hauteur_genou">
+  <data key="d0">Bottes à hauteur du genou</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="cuissardes">
+  <data key="d0">Cuissardes</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_sb">
+  <data key="d0">Chaussures ou bottes SB</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_s1">
+  <data key="d0">Chaussures S1</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_s2">
+  <data key="d0">Chaussures S2</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_s3">
+  <data key="d0">Chaussures S3</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="bottes_classe_2">
+  <data key="d0">Bottes Classe 2</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="embout_de_protection">
+  <data key="d0">Embout de protection</data>
+  <data key="d1">Component</data>
+</node>
+<node id="semelle_anti_perforation">
+  <data key="d0">Semelle anti-perforation</data>
+  <data key="d1">Component</data>
+</node>
+<node id="tige">
+  <data key="d0">Tige</data>
+  <data key="d1">Component</data>
+</node>
+<node id="coques">
+  <data key="d0">Coques</data>
+  <data key="d1">Component</data>
+</node>
+<node id="semelle_interieure">
+  <data key="d0">Semelle intérieure</data>
+  <data key="d1">Component</data>
+</node>
+<node id="arriere_ferme">
+  <data key="d0">Arrière fermé</data>
+  <data key="d1">Component</data>
+</node>
+<node id="semelle_a_crampons">
+  <data key="d0">Semelle à crampons</data>
+  <data key="d1">Component</data>
+</node>
+<node id="etiquette_chaussure">
+  <data key="d0">Étiquette de la chaussure</data>
+  <data key="d1">Component</data>
+</node>
+<node id="semelles_antiderapantes">
+  <data key="d0">Semelles antidérapantes</data>
+  <data key="d1">Component</data>
+</node>
+<node id="activite_professionnelle">
+  <data key="d0">Activité professionnelle</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="environnement_de_travail">
+  <data key="d0">Environnement de travail</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="nature_des_deplacements">
+  <data key="d0">Nature des déplacements à effectuer</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="nature_des_sols">
+  <data key="d0">Nature des sols</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="nature_des_mouvements_postures">
+  <data key="d0">Nature des mouvements et des postures à adopter</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="nature_environnement_travail_specific">
+  <data key="d0">Nature de l'environnement de travail (spécifique)</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="nature_materiels_methodes_utilises">
+  <data key="d0">Nature des matériels et méthodes utilisés</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="travail_interieur">
+  <data key="d0">Travail en intérieur</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="travail_exterieur">
+  <data key="d0">Travail en extérieur</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="glissades">
+  <data key="d0">Glissades</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chutes">
+  <data key="d0">Chutes</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chocs_generaux">
+  <data key="d0">Chocs (général)</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="ecrasements">
+  <data key="d0">Écrasements</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="transpercements_pieds">
+  <data key="d0">Transpercements des pieds</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="coincement">
+  <data key="d0">Coincement</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="perforation">
+  <data key="d0">Perforation</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="piqure">
+  <data key="d0">Piqûre</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="coupure">
+  <data key="d0">Coupure</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="contact_electrique_sous_tension">
+  <data key="d0">Contact électrique avec conducteur sous tension</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="decharge_electrostatique">
+  <data key="d0">Décharge électrostatique</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="elements_corrosifs">
+  <data key="d0">Éléments corrosifs</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="elements_toxiques">
+  <data key="d0">Éléments toxiques</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="elements_irritants">
+  <data key="d0">Éléments irritants</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="allergie">
+  <data key="d0">Allergie</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="irritation_biologique">
+  <data key="d0">Irritation biologique</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="developpement_germes_pathogenes">
+  <data key="d0">Développement de germes pathogènes</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="choc_faux_mouvement">
+  <data key="d0">Choc (faux mouvement)</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="faux_mouvement">
+  <data key="d0">Faux mouvement</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="froid">
+  <data key="d0">Froid</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chaleur">
+  <data key="d0">Chaleur</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="feu">
+  <data key="d0">Feu</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="projection_metaux_fusion">
+  <data key="d0">Projection de métaux en fusion</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="projection_enrobee_chaud">
+  <data key="d0">Projection d'enrobée à chaud</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="norme_en_iso_20345">
+  <data key="d0">Norme EN ISO 20345</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="norme_en_iso_20346">
+  <data key="d0">Norme EN ISO 20346</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="norme_en_iso_20347">
+  <data key="d0">Norme EN ISO 20347</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="code_du_travail_r4323_91_suivants">
+  <data key="d0">Code du travail, articles R.4323-91 et suivants</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="ed_994_inrs">
+  <data key="d0">ED 994 Les articles chaussants de protection (INRS)</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="directive_europeenne_marquage_ce">
+  <data key="d0">Directive européenne (Marquage CE)</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="resistance_choc_200j">
+  <data key="d0">Résistance aux chocs 200 joules</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_ecrasement_15kn">
+  <data key="d0">Résistance à l'écrasement 15 kN</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_choc_100j">
+  <data key="d0">Résistance aux chocs 100 joules</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_pression_10kn">
+  <data key="d0">Résistance à la pression 10 kN</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="pointure">
+  <data key="d0">Pointure</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="references_commerciales">
+  <data key="d0">Références commerciales</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="caracteristiques_techniques_chaussure">
+  <data key="d0">Caractéristiques techniques de la chaussure</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="poids_coques">
+  <data key="d0">Poids des coques</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="souplesse_materiaux">
+  <data key="d0">Souplesse des matériaux</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="caracteristiques_thermiques_aeration">
+  <data key="d0">Caractéristiques thermiques et d'aération</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="qualites_performances_materiaux">
+  <data key="d0">Qualités et performances des matériaux utilisés pour la fabrication</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_abrasion">
+  <data key="d0">Résistance à l'abrasion</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_flexion">
+  <data key="d0">Résistance à la flexion</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_dechirure">
+  <data key="d0">Résistance à la déchirure</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="permeabilite_vapeur_eau">
+  <data key="d0">Perméabilité à la vapeur d'eau</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_glissement">
+  <data key="d0">Résistance au glissement</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="proprietes_antistatiques">
+  <data key="d0">Propriétés antistatiques (A)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="absorption_energie_talon">
+  <data key="d0">Absorption d'énergie du talon (E)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_hydrocarbures">
+  <data key="d0">Résistance aux hydrocarbures (FO)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="impermeabilite_eau">
+  <data key="d0">Imperméabilité à l'eau</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="port_chaussures_adaptees_essentiel">
+  <data key="d0">Le recours au port de chaussures adaptées est essentiel</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="choix_equipement_par_autorite_territoriale">
+  <data key="d0">L'autorité territoriale doit choisir l'équipement</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="choix_selon_risques_activite_environnement_contraintes">
+  <data key="d0">Choisir en fonction des risques, de l'activité, de l'environnement et des contraintes</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="offrir_securite_confort_maximal">
+  <data key="d0">Offrir le niveau de sécurité souhaité avec des conditions de confort maximales</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="chaussures_travail_protection_moindre">
+  <data key="d0">Chaussures de travail adaptées lorsque la protection nécessaire est moindre</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="prise_en_compte_morphologie_pieds_agent">
+  <data key="d0">Prise en compte de la morphologie des pieds de l'agent</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="facilite_port_enlevement">
+  <data key="d0">Facilité du port et de l'enlèvement</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="conditions_stockage">
+  <data key="d0">Conditions de stockage</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="conditions_nettoyage">
+  <data key="d0">Conditions de nettoyage</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="conditions_entretien">
+  <data key="d0">Conditions d'entretien</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="esthetique_equipement">
+  <data key="d0">Esthétique de l'équipement</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="marquage_ce_atteste_conformite">
+  <data key="d0">Marquage CE atteste de la conformité aux exigences essentielles</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="reference_normes_respectees">
+  <data key="d0">L'étiquette reprend les normes que respecte la chaussure</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="reference_categories_protections">
+  <data key="d0">L'étiquette reprend les catégories et les caractéristiques de protections</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="pieds">
+  <data key="d0">Pieds</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="genou">
+  <data key="d0">Genou</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="talon">
+  <data key="d0">Talon</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="acier">
+  <data key="d0">Acier</data>
+  <data key="d1">Material</data>
+</node>
+<node id="materiaux_composites">
+  <data key="d0">Matériaux composites</data>
+  <data key="d1">Material</data>
+</node>
+<node id="kevlar">
+  <data key="d0">Kevlar</data>
+  <data key="d1">Material</data>
+</node>
+<node id="cuir">
+  <data key="d0">Cuir</data>
+  <data key="d1">Material</data>
+</node>
+<node id="matieres_synthetiques">
+  <data key="d0">Matières synthétiques</data>
+  <data key="d1">Material</data>
+</node>
+<node id="caoutchouc">
+  <data key="d0">Caoutchouc</data>
+  <data key="d1">Material</data>
+</node>
+<node id="polymere">
+  <data key="d0">Polymère</data>
+  <data key="d1">Material</data>
+</node>
+<node id="chaussures_hybrides_sbh">
+  <data key="d0">Chaussures hybrides SBH</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_conductrices">
+  <data key="d0">Chaussures conductrices</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_antistatiques">
+  <data key="d0">Chaussures antistatiques</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_dissipatrices_esd">
+  <data key="d0">Chaussures dissipatrices ESD</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_isolantes_electriquement">
+  <data key="d0">Chaussures isolantes électriquement</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="semelle">
+  <data key="d0">Semelle</data>
+  <data key="d1">Component</data>
+</node>
+<node id="operations_de_soudage">
+  <data key="d0">Opérations de soudage</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="hydrocarbures">
+  <data key="d0">Hydrocarbures</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="glissade_carrelage_detergent">
+  <data key="d0">Glissade sur carrelage avec détergent</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="glissade_acier_huile">
+  <data key="d0">Glissade sur acier avec huile</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chocs">
+  <data key="d0">Chocs</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="decharge_electro_statique">
+  <data key="d0">Décharge électrostatique</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="danger_electrique">
+  <data key="d0">Danger électrique</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="eau">
+  <data key="d0">Eau</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chaines_de_tronconneuse">
+  <data key="d0">Chaînes de tronçonneuse</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="norme_en_iso_13287">
+  <data key="d0">Norme EN ISO 13287</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="norme_en_61340_5_1">
+  <data key="d0">Norme EN 61340-5-1</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="norme_en_50321">
+  <data key="d0">Norme EN 50321</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="norme_en_iso_20349">
+  <data key="d0">Norme EN ISO 20349</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="norme_en_iso_17249">
+  <data key="d0">Norme EN ISO 17249</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="exigences_sb">
+  <data key="d0">Exigences fondamentales SB</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="exigences_s4">
+  <data key="d0">Exigences S4</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="exigences_s5">
+  <data key="d0">Exigences S5</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="proprietes_antistatiques_a_s4">
+  <data key="d0">Propriétés antistatiques (A) S4</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="absorption_energie_talon_e_s4">
+  <data key="d0">Absorption d’énergie du talon (E) S4</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_hydrocarbures_fo_s4">
+  <data key="d0">Résistance aux hydrocarbures (FO) S4</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="semelle_anti_perforation_p_s5">
+  <data key="d0">Semelle anti-perforation (P) S5</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="semelle_a_crampons_s5">
+  <data key="d0">Semelle à crampons S5</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="caracteristiques_antiderapantes">
+  <data key="d0">Caractéristiques antidérapantes</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="semelle_antiderapante_sra">
+  <data key="d0">Semelle antidérapante SRA (carrelage + détergent)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="semelle_antiderapante_srb">
+  <data key="d0">Semelle antidérapante SRB (acier + huile)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="antiderapant_src">
+  <data key="d0">Antidérapant SRC (SRA + SRB)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="semelle_resistante_perforation_p">
+  <data key="d0">Semelle résistante à la perforation (P)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="capacite_absorption_energie_talon_e">
+  <data key="d0">Capacité d’absorption d’énergie du talon (E)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="chaussure_resistante_coupure_cr">
+  <data key="d0">Chaussure résistante à la coupure (CR)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="protection_metatarse_m">
+  <data key="d0">Protection du métatarse (M)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="protection_malleoles_an">
+  <data key="d0">Protection des malléoles (AN)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="conductrice_c">
+  <data key="d0">Conductrice (C)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_electrique_moins_100kohm">
+  <data key="d0">Résistance électrique &lt; 100 kΩ</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="antistatique_a">
+  <data key="d0">Antistatique (A)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_electrique_100kohm_1000mohm">
+  <data key="d0">Résistance électrique &gt; 100 kΩ ≤ 1000 MΩ</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="dissipatrice_esd_spec">
+  <data key="d0">Dissipatrice (ESD)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="isolante_electriquement_i">
+  <data key="d0">Isolante électriquement (I)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="isolation_semelle_froid_ci">
+  <data key="d0">Isolation de la semelle contre le froid (CI)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="isolation_semelle_chaleur_hi">
+  <data key="d0">Isolation de la semelle contre la chaleur (HI)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_semelle_marche_chaleur_hro">
+  <data key="d0">Résistance de la semelle de marche à la chaleur (contact direct) (HRO)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_semelle_marche_hydrocarbures_fo">
+  <data key="d0">Résistance de la semelle de marche aux hydrocarbures (FO)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_eau_wr">
+  <data key="d0">Résistance à l’eau de la chaussure (WR)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="impermeabilite_eau_tige_wru">
+  <data key="d0">Imperméabilité à l’eau de la tige (WRU)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="conforme_soudage_wg">
+  <data key="d0">Conforme pour les opérations de soudage (WG)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_chaines_tronconneuse_classe_1">
+  <data key="d0">Résistance chaînes de tronçonneuse Classe 1</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="vitesse_chaine_20_ms">
+  <data key="d0">Vitesse de la chaîne de 20 m/s</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_chaines_tronconneuse_classe_2">
+  <data key="d0">Résistance chaînes de tronçonneuse Classe 2</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="vitesse_chaine_24_ms">
+  <data key="d0">Vitesse de la chaîne de 24 m/s</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_chaines_tronconneuse_classe_3">
+  <data key="d0">Résistance chaînes de tronçonneuse Classe 3</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="vitesse_chaine_28_ms">
+  <data key="d0">Vitesse de la chaîne de 28 m/s</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_chaines_tronconneuse_classe_4">
+  <data key="d0">Résistance chaînes de tronçonneuse Classe 4</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="vitesse_chaine_32_ms">
+  <data key="d0">Vitesse de la chaîne de 32 m/s</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="references_normees_etiquette">
+  <data key="d0">Les références aux caractéristiques des chaussures sont normées et sont inscrites sur l’étiquette de l’équipement</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="metatarse_orteils">
+  <data key="d0">Métatarse (orteils)</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="malleoles_chevilles">
+  <data key="d0">Malléoles (chevilles)</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="caoutchouc_vulcanise">
+  <data key="d0">Caoutchouc (entièrement vulcanisé)</data>
+  <data key="d1">Material</data>
+</node>
+<node id="polymere_moule">
+  <data key="d0">Polymère (entièrement moulé)</data>
+  <data key="d1">Material</data>
+</node>
+<edge source="chaussures_de_securite" target="pieds">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="chaussures_de_securite" target="glissades">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="chutes">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="chocs_generaux">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="ecrasements">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="transpercements_pieds">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="port_chaussures_adaptees_essentiel">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="choix_equipement_par_autorite_territoriale">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="choix_selon_risques_activite_environnement_contraintes">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="offrir_securite_confort_maximal">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="coincement">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="perforation">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="piqure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="contact_electrique_sous_tension">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="decharge_electrostatique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="elements_corrosifs">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="elements_toxiques">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="elements_irritants">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="allergie">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="irritation_biologique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="developpement_germes_pathogenes">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="choc_faux_mouvement">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="faux_mouvement">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="froid">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="chaleur">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="feu">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="projection_metaux_fusion">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="projection_enrobee_chaud">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_de_securite" target="norme_en_iso_20345">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_de_securite" target="embout_de_protection">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_de_securite" target="semelle_anti_perforation">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_de_securite" target="prise_en_compte_morphologie_pieds_agent">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="poids_coques">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="souplesse_materiaux">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="cuir">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="chaussures_de_securite" target="matieres_synthetiques">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="chaussures_de_securite" target="caracteristiques_thermiques_aeration">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="facilite_port_enlevement">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="conditions_stockage">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="conditions_nettoyage">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="conditions_entretien">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="esthetique_equipement">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="code_du_travail_r4323_91_suivants">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_de_securite" target="ed_994_inrs">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_de_securite" target="etiquette_chaussure">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_de_securite" target="caoutchouc_vulcanise">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="chaussures_de_securite" target="polymere_moule">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="chaussures_de_securite" target="exigences_sb">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="exigences_s4">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="exigences_s5">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="semelle_resistante_perforation_p">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="capacite_absorption_energie_talon_e">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="chaussure_resistante_coupure_cr">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="protection_metatarse_m">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="protection_malleoles_an">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="isolation_semelle_froid_ci">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="isolation_semelle_chaleur_hi">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="resistance_semelle_marche_chaleur_hro">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="resistance_semelle_marche_hydrocarbures_fo">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="resistance_eau_wr">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="impermeabilite_eau_tige_wru">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="conforme_soudage_wg">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="references_normees_etiquette">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_de_securite" target="norme_en_iso_17249">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_de_securite" target="resistance_chaines_tronconneuse_classe_1">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="resistance_chaines_tronconneuse_classe_2">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="resistance_chaines_tronconneuse_classe_3">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_securite" target="resistance_chaines_tronconneuse_classe_4">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_de_protection" target="norme_en_iso_20346">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_de_protection" target="embout_de_protection">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_de_protection" target="semelle_anti_perforation">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_de_travail" target="norme_en_iso_20347">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_de_travail" target="chaussures_travail_protection_moindre">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_basses" target="tige">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_montantes" target="tige">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="bottes_mi_hauteur_genou" target="tige">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="bottes_mi_hauteur_genou" target="genou">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="bottes_hauteur_genou" target="tige">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="bottes_hauteur_genou" target="genou">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="cuissardes" target="tige">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_sb" target="norme_en_iso_20345">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_sb" target="travail_interieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_sb" target="embout_de_protection">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_sb" target="qualites_performances_materiaux">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_sb" target="resistance_abrasion">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_sb" target="resistance_flexion">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_sb" target="resistance_dechirure">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_sb" target="permeabilite_vapeur_eau">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_sb" target="resistance_glissement">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_s1" target="norme_en_iso_20345">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_s1" target="travail_interieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_s1" target="arriere_ferme">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_s1" target="proprietes_antistatiques">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_s1" target="absorption_energie_talon">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_s1" target="resistance_hydrocarbures">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_s1" target="cuir">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="chaussures_s2" target="norme_en_iso_20345">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_s2" target="travail_exterieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_s2" target="impermeabilite_eau">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_s3" target="norme_en_iso_20345">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_s3" target="travail_exterieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_s3" target="semelle_anti_perforation">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="chaussures_s3" target="semelle_a_crampons">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="bottes_classe_2" target="norme_en_iso_20345">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="bottes_classe_2" target="caoutchouc">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="bottes_classe_2" target="polymere">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="embout_de_protection" target="resistance_choc_200j">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="embout_de_protection" target="resistance_ecrasement_15kn">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="embout_de_protection" target="resistance_choc_100j">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="embout_de_protection" target="resistance_pression_10kn">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="semelle_anti_perforation" target="kevlar">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="semelle_anti_perforation" target="semelle_anti_perforation">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="coques" target="materiaux_composites">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="coques" target="acier">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="semelle_a_crampons" target="semelle_a_crampons">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="etiquette_chaussure" target="pointure">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="etiquette_chaussure" target="references_commerciales">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="etiquette_chaussure" target="caracteristiques_techniques_chaussure">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="etiquette_chaussure" target="marquage_ce_atteste_conformite">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="etiquette_chaussure" target="reference_normes_respectees">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="etiquette_chaussure" target="reference_categories_protections">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="resistance_glissement" target="semelles_antiderapantes">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="absorption_energie_talon" target="talon">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="choix_equipement_par_autorite_territoriale" target="activite_professionnelle">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="choix_equipement_par_autorite_territoriale" target="environnement_de_travail">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="choix_equipement_par_autorite_territoriale" target="nature_des_deplacements">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="choix_equipement_par_autorite_territoriale" target="nature_des_sols">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="choix_equipement_par_autorite_territoriale" target="nature_des_mouvements_postures">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="choix_equipement_par_autorite_territoriale" target="nature_environnement_travail_specific">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="choix_equipement_par_autorite_territoriale" target="nature_materiels_methodes_utilises">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="marquage_ce_atteste_conformite" target="directive_europeenne_marquage_ce">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_hybrides_sbh" target="norme_en_iso_13287">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_hybrides_sbh" target="caracteristiques_antiderapantes">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_conductrices" target="conductrice_c">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_antistatiques" target="antistatique_a">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_dissipatrices_esd" target="dissipatrice_esd_spec">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_isolantes_electriquement" target="isolante_electriquement_i">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="exigences_s4" target="exigences_sb">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="exigences_s4" target="arriere_ferme">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="exigences_s4" target="proprietes_antistatiques_a_s4">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="exigences_s4" target="absorption_energie_talon_e_s4">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="exigences_s4" target="resistance_hydrocarbures_fo_s4">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="exigences_s5" target="exigences_sb">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="exigences_s5" target="semelle_anti_perforation_p_s5">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="exigences_s5" target="semelle_a_crampons_s5">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="proprietes_antistatiques_a_s4" target="decharge_electro_statique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="absorption_energie_talon_e_s4" target="talon">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="absorption_energie_talon_e_s4" target="chocs">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="resistance_hydrocarbures_fo_s4" target="hydrocarbures">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="semelle_anti_perforation_p_s5" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="semelle_anti_perforation_p_s5" target="perforation">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="semelle_a_crampons_s5" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="semelle_a_crampons_s5" target="glissade_carrelage_detergent">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="semelle_a_crampons_s5" target="glissade_acier_huile">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="caracteristiques_antiderapantes" target="semelle_antiderapante_sra">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="caracteristiques_antiderapantes" target="semelle_antiderapante_srb">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="caracteristiques_antiderapantes" target="antiderapant_src">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="semelle_antiderapante_sra" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="semelle_antiderapante_sra" target="glissade_carrelage_detergent">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="semelle_antiderapante_srb" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="semelle_antiderapante_srb" target="glissade_acier_huile">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="antiderapant_src" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="antiderapant_src" target="glissade_carrelage_detergent">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="antiderapant_src" target="glissade_acier_huile">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="semelle_resistante_perforation_p" target="perforation">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="semelle_resistante_perforation_p" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="capacite_absorption_energie_talon_e" target="talon">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="capacite_absorption_energie_talon_e" target="chocs">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussure_resistante_coupure_cr" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="protection_metatarse_m" target="metatarse_orteils">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="protection_metatarse_m" target="chocs">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="protection_malleoles_an" target="malleoles_chevilles">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="protection_malleoles_an" target="chocs">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="conductrice_c" target="resistance_electrique_moins_100kohm">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="conductrice_c" target="decharge_electro_statique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="antistatique_a" target="resistance_electrique_100kohm_1000mohm">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="antistatique_a" target="decharge_electro_statique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="dissipatrice_esd_spec" target="norme_en_61340_5_1">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="dissipatrice_esd_spec" target="decharge_electro_statique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="isolante_electriquement_i" target="norme_en_50321">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="isolante_electriquement_i" target="danger_electrique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="isolation_semelle_froid_ci" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="isolation_semelle_froid_ci" target="froid">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="isolation_semelle_chaleur_hi" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="isolation_semelle_chaleur_hi" target="chaleur">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="resistance_semelle_marche_chaleur_hro" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="resistance_semelle_marche_chaleur_hro" target="chaleur">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="resistance_semelle_marche_hydrocarbures_fo" target="semelle">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="resistance_semelle_marche_hydrocarbures_fo" target="hydrocarbures">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="resistance_eau_wr" target="eau">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="impermeabilite_eau_tige_wru" target="tige">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="impermeabilite_eau_tige_wru" target="eau">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="conforme_soudage_wg" target="operations_de_soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="conforme_soudage_wg" target="norme_en_iso_20349">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_1" target="vitesse_chaine_20_ms">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_1" target="chaines_de_tronconneuse">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_2" target="vitesse_chaine_24_ms">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_2" target="chaines_de_tronconneuse">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_3" target="vitesse_chaine_28_ms">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_3" target="chaines_de_tronconneuse">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_4" target="vitesse_chaine_32_ms">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="resistance_chaines_tronconneuse_classe_4" target="chaines_de_tronconneuse">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+</graph></graphml>

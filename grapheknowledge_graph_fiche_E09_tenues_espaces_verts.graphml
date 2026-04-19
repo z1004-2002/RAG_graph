@@ -1,0 +1,834 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="chapeau_larges_bords_ete">
+  <data key="d0">Chapeau à larges bords (été)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="bonnet_hiver">
+  <data key="d0">Bonnet (hiver)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="protection_antibruit">
+  <data key="d0">Protection anti-bruit</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="bouchons_protection_antibruit">
+  <data key="d0">Bouchons anti-bruit</data>
+  <data key="d1">Component</data>
+</node>
+<node id="casque_protection_antibruit">
+  <data key="d0">Casque anti-bruit</data>
+  <data key="d1">Component</data>
+</node>
+<node id="casque_forestier">
+  <data key="d0">Casque forestier</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="ecran_protection_faciale">
+  <data key="d0">Écran de protection faciale</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="grille_protection_faciale">
+  <data key="d0">Grille de protection faciale</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="lunettes_securite">
+  <data key="d0">Lunettes de sécurité</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="casque_securite">
+  <data key="d0">Casque de sécurité</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="masque_protection_respiratoire">
+  <data key="d0">Masque de protection respiratoire</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="vetements_travail_ete">
+  <data key="d0">Vêtements de travail (été)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="pantalon_vetements_travail">
+  <data key="d0">Pantalon de travail</data>
+  <data key="d1">Component</data>
+</node>
+<node id="haut_manches_longues_vetements_travail">
+  <data key="d0">Haut à manches longues de travail</data>
+  <data key="d1">Component</data>
+</node>
+<node id="vetements_travail_hiver">
+  <data key="d0">Vêtements de travail (hiver)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="tenue_signalisation_haute_visibilite">
+  <data key="d0">Tenue de signalisation haute visibilité</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="haut_tenue_signalisation">
+  <data key="d0">Haut de tenue de signalisation</data>
+  <data key="d1">Component</data>
+</node>
+<node id="pantalon_tenue_signalisation">
+  <data key="d0">Pantalon de tenue de signalisation</data>
+  <data key="d1">Component</data>
+</node>
+<node id="parties_fluorescentes">
+  <data key="d0">Parties fluorescentes</data>
+  <data key="d1">Component</data>
+</node>
+<node id="parties_retroreflechissantes">
+  <data key="d0">Parties rétroréfléchissantes</data>
+  <data key="d1">Component</data>
+</node>
+<node id="veste_protection_scies_chaine">
+  <data key="d0">Veste de protection (scies à chaîne)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="manchettes_protection_scies_chaine">
+  <data key="d0">Manchettes de protection (scies à chaîne)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="pantalon_securite_scies_chaine">
+  <data key="d0">Pantalon de sécurité (scies à chaîne)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="surpantalon_securite_scies_chaine">
+  <data key="d0">Surpantalon de sécurité (scies à chaîne)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="tenue_jetable">
+  <data key="d0">Tenue jetable</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="gants_protection_mecanique_coupures">
+  <data key="d0">Gants de protection mécanique (coupures)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="gants_enduction_polyurethane">
+  <data key="d0">Gants enduits polyuréthane</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="gants_protection_mecanique_renforcee">
+  <data key="d0">Gants de protection mécanique renforcée</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="gants_protection_scies_chaine">
+  <data key="d0">Gants de protection (scies à chaîne)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="gants_protection_chimique">
+  <data key="d0">Gants de protection chimique</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_securite_pieds">
+  <data key="d0">Chaussures de sécurité</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="guetres_protection_scies_chaine">
+  <data key="d0">Guêtres de protection (scies à chaîne)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaussures_securite_dessus_pied_renforce">
+  <data key="d0">Chaussures de sécurité (dessus du pied renforcé)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="bottes_securite_impermeables">
+  <data key="d0">Bottes de sécurité imperméables</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="travail_exterieur">
+  <data key="d0">Travail à l'extérieur</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="utilisation_equipement_moteur">
+  <data key="d0">Utilisation d'un équipement à moteur</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="intervention_proximite_equipement_moteur">
+  <data key="d0">Intervention à proximité d'un équipement à moteur</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="traitement_phytosanitaire">
+  <data key="d0">Traitement phytosanitaire</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="activite_foret">
+  <data key="d0">Activité en forêt</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="activite_milieu_boise">
+  <data key="d0">Activité en milieu boisé</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="activite_milieu_humide">
+  <data key="d0">Activité en milieu humide</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="activite_bord_plan_eau">
+  <data key="d0">Activité en bord de plan d'eau</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="activite_bord_riviere">
+  <data key="d0">Activité en bord de rivière</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="travail_route">
+  <data key="d0">Travail sur la route</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="travail_proximite_route">
+  <data key="d0">Travail à proximité de la route</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="travail_proximite_engins_mouvement">
+  <data key="d0">Travail à proximité d'engins en mouvement</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="tronconnage">
+  <data key="d0">Tronçonnage</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="elagage_tronconneuse">
+  <data key="d0">Élagage avec tronçonneuse</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="utilisation_outils">
+  <data key="d0">Utilisation d'outils</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="utilisation_equipements_travail">
+  <data key="d0">Utilisation d'équipements de travail</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="manutention">
+  <data key="d0">Manutention</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="plantation">
+  <data key="d0">Plantation</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="desherbage_manuel">
+  <data key="d0">Désherbage manuel</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="manipulation_epineux">
+  <data key="d0">Manipulation d'épineux</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="taille_outil_main">
+  <data key="d0">Taille avec un outil à main</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="toutes_activites_espaces_verts">
+  <data key="d0">Toutes les activités des espaces verts</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="intervention_milieu_humide">
+  <data key="d0">Intervention en milieu humide</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="intervention_bord_eau">
+  <data key="d0">Intervention en bord d'eau</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="exposition_climatique">
+  <data key="d0">Exposition climatique</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="bruit">
+  <data key="d0">Bruit</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="projections">
+  <data key="d0">Projections (copeaux, herbes, poussières)</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chutes_objet">
+  <data key="d0">Chute d'objet (branches, outils)</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="choc">
+  <data key="d0">Choc</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chimique">
+  <data key="d0">Chimique</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="zoonose">
+  <data key="d0">Zoonose</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="routier">
+  <data key="d0">Risque routier</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="coupure">
+  <data key="d0">Coupure</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="biologique">
+  <data key="d0">Biologique</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="piqure">
+  <data key="d0">Piqûre</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chute_plain_pied">
+  <data key="d0">Chute de plain-pied</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="en_iso_11393">
+  <data key="d0">Norme EN ISO 11393</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="en_388_2_3_3_3">
+  <data key="d0">Norme EN 388 2.3.3.3</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="en_388_4_2_4_2">
+  <data key="d0">Norme EN 388 4.2.4.2</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="code_travail_l4321_1">
+  <data key="d0">Code du travail L4321-1</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="code_travail_r4321_1">
+  <data key="d0">Code du travail R4321-1 et suivants</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="decret_85_603_10_juin_1985">
+  <data key="d0">Décret 85-603 du 10 juin 1985</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="jetable_ou_reutilisable">
+  <data key="d0">Jetable ou réutilisable</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="type_3_4">
+  <data key="d0">Type 3-4</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="classe_ii_minimum">
+  <data key="d0">Classe II (minimum)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="couleur_claire">
+  <data key="d0">Couleur claire</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="mailles_serrees">
+  <data key="d0">Mailles serrées</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="chauds_respirants_plusieurs_epaisseurs">
+  <data key="d0">Chauds et respirants (plusieurs épaisseurs)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="montantes_maintien_cheville">
+  <data key="d0">Montantes avec maintien de la cheville</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="semelles_crantees">
+  <data key="d0">Semelles crantées</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="resistance_eau_s3">
+  <data key="d0">Résistance à l'eau (S3)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="protection_dessus_pied_renforcee">
+  <data key="d0">Protection du dessus du pied renforcée</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="refer_fiche_donnees_securite_produit_masque">
+  <data key="d0">Se référer à la fiche de données de sécurité du produit (pour masque)</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="preferer_couleur_orange_insectes">
+  <data key="d0">Privilégier la couleur orange (attire moins les insectes)</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="refer_fiche_donnees_securite_produit_gants">
+  <data key="d0">Se référer à la fiche de données de sécurité du produit (pour gants)</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="tete">
+  <data key="d0">Tête</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="corps">
+  <data key="d0">Corps</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="mains">
+  <data key="d0">Mains</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="pieds">
+  <data key="d0">Pieds</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="cheville">
+  <data key="d0">Cheville</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="dessus_pied">
+  <data key="d0">Dessus du pied</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="polyurethane">
+  <data key="d0">Polyuréthane</data>
+  <data key="d1">Material</data>
+</node>
+<node id="latex">
+  <data key="d0">Latex</data>
+  <data key="d1">Material</data>
+</node>
+<node id="nitrile">
+  <data key="d0">Nitrile</data>
+  <data key="d1">Material</data>
+</node>
+<node id="fluorescent">
+  <data key="d0">Fluorescent</data>
+  <data key="d1">Material</data>
+</node>
+<node id="retroreflectissant">
+  <data key="d0">Rétroréfléchissant</data>
+  <data key="d1">Material</data>
+</node>
+<edge source="chapeau_larges_bords_ete" target="travail_exterieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chapeau_larges_bords_ete" target="exposition_climatique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chapeau_larges_bords_ete" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="bonnet_hiver" target="travail_exterieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="bonnet_hiver" target="exposition_climatique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="bonnet_hiver" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="protection_antibruit" target="utilisation_equipement_moteur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="protection_antibruit" target="intervention_proximite_equipement_moteur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="protection_antibruit" target="bruit">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="protection_antibruit" target="jetable_ou_reutilisable">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="protection_antibruit" target="bouchons_protection_antibruit">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="protection_antibruit" target="casque_protection_antibruit">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="protection_antibruit" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="casque_forestier" target="bruit">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="casque_forestier" target="projections">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="casque_forestier" target="chutes_objet">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="casque_forestier" target="choc">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="casque_forestier" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="ecran_protection_faciale" target="projections">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="ecran_protection_faciale" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="grille_protection_faciale" target="projections">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="grille_protection_faciale" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="lunettes_securite" target="projections">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_securite" target="chimique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_securite" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="lunettes_securite" target="traitement_phytosanitaire">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="casque_securite" target="chutes_objet">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="casque_securite" target="choc">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="casque_securite" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="masque_protection_respiratoire" target="chimique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="masque_protection_respiratoire" target="traitement_phytosanitaire">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="masque_protection_respiratoire" target="refer_fiche_donnees_securite_produit_masque">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="masque_protection_respiratoire" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="vetements_travail_ete" target="travail_exterieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_ete" target="activite_foret">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_ete" target="activite_milieu_boise">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_ete" target="activite_milieu_humide">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_ete" target="activite_bord_plan_eau">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_ete" target="activite_bord_riviere">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_ete" target="exposition_climatique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_travail_ete" target="zoonose">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_travail_ete" target="couleur_claire">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="vetements_travail_ete" target="mailles_serrees">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="vetements_travail_ete" target="pantalon_vetements_travail">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="vetements_travail_ete" target="haut_manches_longues_vetements_travail">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="vetements_travail_ete" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="vetements_travail_hiver" target="travail_exterieur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_hiver" target="activite_foret">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_hiver" target="activite_milieu_boise">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_hiver" target="activite_milieu_humide">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_hiver" target="activite_bord_plan_eau">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_hiver" target="activite_bord_riviere">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_travail_hiver" target="exposition_climatique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_travail_hiver" target="zoonose">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_travail_hiver" target="chauds_respirants_plusieurs_epaisseurs">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="vetements_travail_hiver" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="travail_route">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="travail_proximite_route">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="travail_proximite_engins_mouvement">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="routier">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="classe_ii_minimum">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="preferer_couleur_orange_insectes">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="haut_tenue_signalisation">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="pantalon_tenue_signalisation">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="parties_fluorescentes">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="parties_retroreflechissantes">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="tenue_signalisation_haute_visibilite" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="parties_fluorescentes" target="fluorescent">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="parties_retroreflechissantes" target="retroreflectissant">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="veste_protection_scies_chaine" target="tronconnage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="veste_protection_scies_chaine" target="elagage_tronconneuse">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="veste_protection_scies_chaine" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="veste_protection_scies_chaine" target="en_iso_11393">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="veste_protection_scies_chaine" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="manchettes_protection_scies_chaine" target="tronconnage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="manchettes_protection_scies_chaine" target="elagage_tronconneuse">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="manchettes_protection_scies_chaine" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="manchettes_protection_scies_chaine" target="en_iso_11393">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="manchettes_protection_scies_chaine" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="pantalon_securite_scies_chaine" target="tronconnage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="pantalon_securite_scies_chaine" target="elagage_tronconneuse">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="pantalon_securite_scies_chaine" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="pantalon_securite_scies_chaine" target="en_iso_11393">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="pantalon_securite_scies_chaine" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="surpantalon_securite_scies_chaine" target="tronconnage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="surpantalon_securite_scies_chaine" target="elagage_tronconneuse">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="surpantalon_securite_scies_chaine" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="surpantalon_securite_scies_chaine" target="en_iso_11393">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="surpantalon_securite_scies_chaine" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="tenue_jetable" target="traitement_phytosanitaire">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="tenue_jetable" target="chimique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="tenue_jetable" target="type_3_4">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="tenue_jetable" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="gants_protection_mecanique_coupures" target="utilisation_outils">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_mecanique_coupures" target="utilisation_equipements_travail">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_mecanique_coupures" target="manutention">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_mecanique_coupures" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_protection_mecanique_coupures" target="en_388_2_3_3_3">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="gants_protection_mecanique_coupures" target="mains">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="gants_enduction_polyurethane" target="plantation">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_enduction_polyurethane" target="desherbage_manuel">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_enduction_polyurethane" target="biologique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_enduction_polyurethane" target="polyurethane">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="gants_enduction_polyurethane" target="mains">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="gants_protection_mecanique_renforcee" target="manipulation_epineux">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_mecanique_renforcee" target="taille_outil_main">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_mecanique_renforcee" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_protection_mecanique_renforcee" target="piqure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_protection_mecanique_renforcee" target="en_388_4_2_4_2">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="gants_protection_mecanique_renforcee" target="mains">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="gants_protection_scies_chaine" target="tronconnage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_scies_chaine" target="elagage_tronconneuse">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_scies_chaine" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_protection_scies_chaine" target="mains">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="gants_protection_chimique" target="traitement_phytosanitaire">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_protection_chimique" target="chimique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_protection_chimique" target="latex">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="gants_protection_chimique" target="nitrile">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="gants_protection_chimique" target="refer_fiche_donnees_securite_produit_gants">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="gants_protection_chimique" target="mains">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="chaussures_securite_pieds" target="toutes_activites_espaces_verts">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_securite_pieds" target="chute_plain_pied">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_securite_pieds" target="montantes_maintien_cheville">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_securite_pieds" target="semelles_crantees">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_securite_pieds" target="resistance_eau_s3">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_securite_pieds" target="pieds">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="chaussures_securite_pieds" target="cheville">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="guetres_protection_scies_chaine" target="tronconnage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="guetres_protection_scies_chaine" target="elagage_tronconneuse">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="guetres_protection_scies_chaine" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="guetres_protection_scies_chaine" target="pieds">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="chaussures_securite_dessus_pied_renforce" target="tronconnage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_securite_dessus_pied_renforce" target="elagage_tronconneuse">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_securite_dessus_pied_renforce" target="coupure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_securite_dessus_pied_renforce" target="protection_dessus_pied_renforcee">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_securite_dessus_pied_renforce" target="pieds">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="chaussures_securite_dessus_pied_renforce" target="dessus_pied">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="bottes_securite_impermeables" target="intervention_milieu_humide">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="bottes_securite_impermeables" target="intervention_bord_eau">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="bottes_securite_impermeables" target="traitement_phytosanitaire">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="bottes_securite_impermeables" target="biologique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="bottes_securite_impermeables" target="chimique">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="bottes_securite_impermeables" target="pieds">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,1018 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="type" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="soudage">
+  <data key="d0">Soudage</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="rayonnements_lumineux">
+  <data key="d0">Rayonnements lumineux</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="projections_metaux">
+  <data key="d0">Projections de métaux</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="lunettes_protection">
+  <data key="d0">Lunettes de protection</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="verres_teintes">
+  <data key="d0">Verres teintés</data>
+  <data key="d1">Component</data>
+</node>
+<node id="coques_laterales">
+  <data key="d0">Coques latérales</data>
+  <data key="d1">Component</data>
+</node>
+<node id="elastique_serre_tete">
+  <data key="d0">Élastique serre-tête</data>
+  <data key="d1">Component</data>
+</node>
+<node id="etancheite_milieu_ambiant">
+  <data key="d0">Assure l'étanchéité avec le milieu ambiant</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="port_lunettes_correctrices_possible_sous_lunettes_protection">
+  <data key="d0">Port de lunettes correctrices possible sous cet équipement</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="choix_lunettes_selon_activite_soudeur">
+  <data key="d0">Choix des lunettes selon l'activité du soudeur</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="assemblage">
+  <data key="d0">Assemblage</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="decoupage">
+  <data key="d0">Découpage</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="soudage_arc">
+  <data key="d0">Soudage à l'arc</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="ecran_facial">
+  <data key="d0">Écran facial (Casque de protection)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="yeux">
+  <data key="d0">Yeux</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="visage">
+  <data key="d0">Visage</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="cou">
+  <data key="d0">Cou</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="protection_globale">
+  <data key="d0">Protection globale</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="n_assure_pas_etancheite_milieu_exterieur">
+  <data key="d0">N'assure pas l'étanchéité avec le milieu extérieur</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="cagoule">
+  <data key="d0">Cagoule</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="cagoule_doit_repondre_criteres_protection_vetements">
+  <data key="d0">Cagoule doit répondre aux critères de protection des vêtements</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="filtres_optiques">
+  <data key="d0">Filtres optiques</data>
+  <data key="d1">Component</data>
+</node>
+<node id="filtres_optiques_adaptes_rayonnement_soudage">
+  <data key="d0">Filtres optiques adaptés au rayonnement du procédé de soudage</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="masque_soudage">
+  <data key="d0">Masque de soudage</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="filtres_actifs">
+  <data key="d0">Filtres actifs</data>
+  <data key="d1">Component</data>
+</node>
+<node id="pas_necessaire_relever_abaisser_masque_soudage">
+  <data key="d0">Pas nécessaire de relever et d'abaisser le masque pendant le soudage</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="mains_libres_durant_operation">
+  <data key="d0">Mains libres durant l'opération</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="equipement_protection_individuelle">
+  <data key="d0">Équipement de protection individuelle (général)</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="en_166">
+  <data key="d0">Norme EN 166</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="verres_clairs">
+  <data key="d0">Verres clairs</data>
+  <data key="d1">Component</data>
+</node>
+<node id="en_169">
+  <data key="d0">Norme EN 169</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="en_175">
+  <data key="d0">Norme EN 175</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="filtres_protection">
+  <data key="d0">Filtres de protection</data>
+  <data key="d1">Component</data>
+</node>
+<node id="protection_voies_respiratoires">
+  <data key="d0">Protection des voies respiratoires</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="gaz_dangereux_combustion_metaux">
+  <data key="d0">Gaz dangereux lors de la combustion des métaux</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="postes_soudage_bruyants">
+  <data key="d0">Postes de soudage bruyants</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="environnements_travail_bruyants">
+  <data key="d0">Environnements de travail bruyants</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="bruit">
+  <data key="d0">Bruit</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="protections_auditives">
+  <data key="d0">Protections auditives</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="masque_antibruit">
+  <data key="d0">Masque antibruit</data>
+  <data key="d1">Component</data>
+</node>
+<node id="bouchons_oreille">
+  <data key="d0">Bouchons d'oreille</data>
+  <data key="d1">Component</data>
+</node>
+<node id="tete">
+  <data key="d0">Tête</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="equipement_protection_individuelle_specifique">
+  <data key="d0">Équipement de protection individuelle spécifique</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="code_du_travail_r4534_131_135">
+  <data key="d0">Code du travail, articles R.4534-131 à R.4534-135</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="lunettes_branches">
+  <data key="d0">Lunettes à branches</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="lunettes_masques">
+  <data key="d0">Lunettes masques</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="soudage_gaz">
+  <data key="d0">Soudage au gaz</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="soudage_electrique">
+  <data key="d0">Soudage électrique</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="en_379">
+  <data key="d0">Norme EN 379</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="rayonnement_uv">
+  <data key="d0">Rayonnement UV</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="en_170">
+  <data key="d0">Norme EN 170</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="rayonnement_infrarouge">
+  <data key="d0">Rayonnement infrarouge</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="en_171">
+  <data key="d0">Norme EN 171</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="rayonnement_laser">
+  <data key="d0">Rayonnement laser</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="en_207">
+  <data key="d0">Norme EN 207</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="en_208">
+  <data key="d0">Norme EN 208</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="rayonnement_solaire_industriel">
+  <data key="d0">Rayonnement solaire (usage industriel)</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="en_172">
+  <data key="d0">Norme EN 172</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="mains">
+  <data key="d0">Mains</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="protections_mains">
+  <data key="d0">Protections pour les mains</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="activite_caracteristique_soudeur">
+  <data key="d0">Activité caractéristique du soudeur</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="en_407">
+  <data key="d0">Norme EN 407</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="en_12477_a1">
+  <data key="d0">Norme EN 12477/A1</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="gants_antithermiques">
+  <data key="d0">Gants antithermiques</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaleur_degagee_soudage_assemblage">
+  <data key="d0">Chaleur dégagée pendant le soudage ou l'assemblage</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="ignifuges_gants">
+  <data key="d0">Ignifugés (gants)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="propagation_flamme">
+  <data key="d0">Propagation de la flamme</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="vetements_protection_chaleur_flamme">
+  <data key="d0">Vêtements de protection contre la chaleur et la flamme</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="chaleur">
+  <data key="d0">Chaleur</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="flamme">
+  <data key="d0">Flamme</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="choix_vetements_selon_usage_analyse_risques">
+  <data key="d0">Choix des vêtements selon l'usage et l'analyse des risques</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="nf_en_470_1">
+  <data key="d0">Norme NF EN 470-1</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="vetements_difficilement_combustibles">
+  <data key="d0">Vêtements difficilement combustibles</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="isolants_vetements">
+  <data key="d0">Isolants (vêtements)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="ignifuges_vetements">
+  <data key="d0">Ignifugés (vêtements)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="petites_projections_metaux">
+  <data key="d0">Petites projections de métaux</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="tablier_cuir">
+  <data key="d0">Tablier en cuir</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="corps">
+  <data key="d0">Corps</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="cuir">
+  <data key="d0">Cuir</data>
+  <data key="d1">Material</data>
+</node>
+<node id="manchettes_cuir">
+  <data key="d0">Manchettes en cuir</data>
+  <data key="d1">Component</data>
+</node>
+<node id="avant_bras">
+  <data key="d0">Avant-bras</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="survetements_protection">
+  <data key="d0">Survêtements de protection</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="degagement_chaleur_important">
+  <data key="d0">Dégagement de chaleur important</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="isolation_source_chaleur">
+  <data key="d0">Isolation de la source de chaleur</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="employeur_nettoyer_vetements_travail_regulierement">
+  <data key="d0">L'employeur doit nettoyer les vêtements de travail régulièrement</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="enflammement_tenue_souillee_graisse">
+  <data key="d0">Enflammement d'une tenue souillée de graisse</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="chaussures_securite">
+  <data key="d0">Chaussures de sécurité</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="port_chaussures_securite_obligatoire">
+  <data key="d0">Port de chaussures de sécurité obligatoire</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="en_345">
+  <data key="d0">Norme EN 345</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="chaussures_securite_montantes_isolantes_chaleur">
+  <data key="d0">Chaussures de sécurité montantes et isolantes à la chaleur</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="montantes">
+  <data key="d0">Montantes</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="isolantes_chaleur_chaussures">
+  <data key="d0">Isolantes à la chaleur (chaussures)</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="tige_chaussure">
+  <data key="d0">Tige de la chaussure</data>
+  <data key="d1">Component</data>
+</node>
+<node id="limite_transfert_chaleur">
+  <data key="d0">Limite le transfert de la chaleur</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="enflammement_consommation_contact_gouttes_metal_fusion">
+  <data key="d0">Enflammement ou consommation au contact de gouttes de métal en fusion</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="guetres">
+  <data key="d0">Guêtres</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="guetres_repondent_criteres_protection_vetements">
+  <data key="d0">Guêtres répondent aux critères de protection des vêtements</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="pantalon">
+  <data key="d0">Pantalon</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="pantalon_doit_recouvrir_guetres">
+  <data key="d0">Le pantalon doit recouvrir les guêtres</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="projections_metal_brulent_soudeur">
+  <data key="d0">Projections de métal brûlant le soudeur</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="traitement_antimicrobien_antifongique">
+  <data key="d0">Traitement antimicrobien et antifongique régulier</data>
+  <data key="d1">Specification</data>
+</node>
+<node id="developpement_bacteries">
+  <data key="d0">Développement de bactéries</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="developpement_champignons">
+  <data key="d0">Développement de champignons</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="pantalon_soudeur">
+  <data key="d0">Pantalon du soudeur</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="cuissardes">
+  <data key="d0">Cuissardes</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="genouilleres">
+  <data key="d0">Genouillères</data>
+  <data key="d1">Equipment</data>
+</node>
+<node id="poches_exterieures_pantalon">
+  <data key="d0">Poches extérieures du pantalon</data>
+  <data key="d1">Component</data>
+</node>
+<node id="rabat_poches">
+  <data key="d0">Rabat des poches</data>
+  <data key="d1">Component</data>
+</node>
+<node id="revers_pantalon">
+  <data key="d0">Revers du pantalon</data>
+  <data key="d1">Component</data>
+</node>
+<node id="fermeture_glissiere_pantalon">
+  <data key="d0">Fermeture à glissière du pantalon</data>
+  <data key="d1">Component</data>
+</node>
+<node id="accessoire_metallique_pantalon">
+  <data key="d0">Accessoire métallique du pantalon</data>
+  <data key="d1">Component</data>
+</node>
+<node id="travailler_genoux">
+  <data key="d0">Travailler à genoux</data>
+  <data key="d1">Activity_Domain</data>
+</node>
+<node id="projections_metal">
+  <data key="d0">Projections de métal</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="brulure">
+  <data key="d0">Brûlure</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="syndrome_hydroma">
+  <data key="d0">Syndrome d’hydroma</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="impossibilite_oter_pantalon">
+  <data key="d0">Impossibilité d'ôter le pantalon</data>
+  <data key="d1">Risk_Hazard</data>
+</node>
+<node id="norme_nf_en_470_1">
+  <data key="d0">Norme NF EN 470-1</data>
+  <data key="d1">Standard_Regulation</data>
+</node>
+<node id="preserver_hygiene_pied">
+  <data key="d0">Préserver l'hygiène du pied</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="porter_pantalon_ignifuge">
+  <data key="d0">Porter un pantalon en coton ignifugé ou cuir traité ignifuge</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="fermer_poches_rabat_projections_metal">
+  <data key="d0">Fermer les poches extérieures avec un rabat en cas de projections de métal</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="pas_de_revers_pantalon_projections_metal">
+  <data key="d0">Le pantalon ne doit pas posséder de revers en cas de projections de métal</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="aucun_accessoire_metallique_autorise_pantalon">
+  <data key="d0">Aucun accessoire métallique n'est autorisé sur le pantalon</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="porter_genouilleres_travail_genoux">
+  <data key="d0">Porter des genouillères lors du travail à genoux</data>
+  <data key="d1">Rule_Instruction</data>
+</node>
+<node id="pieds">
+  <data key="d0">Pieds</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="articulations">
+  <data key="d0">Articulations</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="genoux">
+  <data key="d0">Genoux</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="peau">
+  <data key="d0">Peau</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="rotule">
+  <data key="d0">Rotule</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="jambes">
+  <data key="d0">Jambes</data>
+  <data key="d1">Body_Part</data>
+</node>
+<node id="coton_ignifuge">
+  <data key="d0">Coton ignifugé</data>
+  <data key="d1">Material</data>
+</node>
+<node id="cuir_traite_ignifuge">
+  <data key="d0">Cuir traité ignifuge</data>
+  <data key="d1">Material</data>
+</node>
+<edge source="lunettes_protection" target="verres_teintes">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="lunettes_protection" target="coques_laterales">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="lunettes_protection" target="elastique_serre_tete">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="lunettes_protection" target="etancheite_milieu_ambiant">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="lunettes_protection" target="port_lunettes_correctrices_possible_sous_lunettes_protection">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="lunettes_protection" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="lunettes_protection" target="choix_lunettes_selon_activite_soudeur">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="lunettes_protection" target="assemblage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="lunettes_protection" target="decoupage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="lunettes_protection" target="soudage_arc">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="verres_teintes" target="en_169">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="yeux">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="ecran_facial" target="visage">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="ecran_facial" target="cou">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="ecran_facial" target="protection_globale">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="ecran_facial" target="n_assure_pas_etancheite_milieu_exterieur">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="ecran_facial" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="ecran_facial" target="filtres_optiques">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="ecran_facial" target="soudage_gaz">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="ecran_facial" target="en_166">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="en_169">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="soudage_electrique">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="ecran_facial" target="en_175">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="en_379">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="rayonnement_uv">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="ecran_facial" target="en_170">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="rayonnement_infrarouge">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="ecran_facial" target="en_171">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="rayonnement_laser">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="ecran_facial" target="en_207">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="en_208">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="ecran_facial" target="rayonnement_solaire_industriel">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="ecran_facial" target="en_172">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="cagoule" target="cagoule_doit_repondre_criteres_protection_vetements">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="filtres_optiques" target="filtres_optiques_adaptes_rayonnement_soudage">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="filtres_optiques" target="en_166">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="filtres_optiques" target="en_169">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="filtres_optiques" target="en_175">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="masque_soudage" target="filtres_actifs">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="masque_soudage" target="pas_necessaire_relever_abaisser_masque_soudage">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="masque_soudage" target="mains_libres_durant_operation">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="masque_soudage" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="equipement_protection_individuelle" target="en_166">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="equipement_protection_individuelle" target="en_169">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="equipement_protection_individuelle" target="en_175">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="verres_clairs" target="en_166">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="filtres_protection" target="en_175">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="protection_voies_respiratoires" target="gaz_dangereux_combustion_metaux">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="protections_auditives" target="postes_soudage_bruyants">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="protections_auditives" target="environnements_travail_bruyants">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="protections_auditives" target="bruit">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="protections_auditives" target="masque_antibruit">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="protections_auditives" target="bouchons_oreille">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="equipement_protection_individuelle_specifique" target="tete">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="equipement_protection_individuelle_specifique" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="equipement_protection_individuelle_specifique" target="assemblage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="lunettes_branches" target="soudage_gaz">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="lunettes_branches" target="en_166">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_branches" target="en_169">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_branches" target="rayonnement_uv">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_branches" target="en_170">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_branches" target="rayonnement_infrarouge">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_branches" target="en_171">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_branches" target="rayonnement_laser">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_branches" target="en_207">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_branches" target="en_208">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_branches" target="rayonnement_solaire_industriel">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_branches" target="en_172">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_masques" target="soudage_gaz">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="lunettes_masques" target="en_166">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_masques" target="en_169">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_masques" target="rayonnement_uv">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_masques" target="en_170">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_masques" target="rayonnement_infrarouge">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_masques" target="en_171">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_masques" target="rayonnement_laser">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_masques" target="en_207">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_masques" target="en_208">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="lunettes_masques" target="rayonnement_solaire_industriel">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="lunettes_masques" target="en_172">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="protections_mains" target="mains">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="protections_mains" target="activite_caracteristique_soudeur">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="protections_mains" target="en_407">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="protections_mains" target="en_12477_a1">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="gants_antithermiques" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_antithermiques" target="assemblage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="gants_antithermiques" target="chaleur_degagee_soudage_assemblage">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_antithermiques" target="mains">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="gants_antithermiques" target="ignifuges_gants">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="gants_antithermiques" target="propagation_flamme">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="gants_antithermiques" target="projections_metaux">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_protection_chaleur_flamme" target="chaleur">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_protection_chaleur_flamme" target="flamme">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_protection_chaleur_flamme" target="choix_vetements_selon_usage_analyse_risques">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="vetements_protection_chaleur_flamme" target="nf_en_470_1">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="vetements_protection_chaleur_flamme" target="employeur_nettoyer_vetements_travail_regulierement">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="vetements_difficilement_combustibles" target="isolants_vetements">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="vetements_difficilement_combustibles" target="ignifuges_vetements">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="vetements_difficilement_combustibles" target="propagation_flamme">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_difficilement_combustibles" target="petites_projections_metaux">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="vetements_difficilement_combustibles" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="vetements_difficilement_combustibles" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="tablier_cuir" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="tablier_cuir" target="cuir">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="tablier_cuir" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="manchettes_cuir" target="avant_bras">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="manchettes_cuir" target="cuir">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="manchettes_cuir" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="survetements_protection" target="degagement_chaleur_important">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="survetements_protection" target="isolation_source_chaleur">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="survetements_protection" target="corps">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="employeur_nettoyer_vetements_travail_regulierement" target="enflammement_tenue_souillee_graisse">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_securite" target="port_chaussures_securite_obligatoire">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="chaussures_securite" target="en_345">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="chaussures_securite" target="traitement_antimicrobien_antifongique">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_securite_montantes_isolantes_chaleur" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="chaussures_securite_montantes_isolantes_chaleur" target="montantes">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_securite_montantes_isolantes_chaleur" target="isolantes_chaleur_chaussures">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="chaussures_securite_montantes_isolantes_chaleur" target="chaleur">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="chaussures_securite_montantes_isolantes_chaleur" target="tige_chaussure">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="tige_chaussure" target="limite_transfert_chaleur">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="tige_chaussure" target="enflammement_consommation_contact_gouttes_metal_fusion">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="guetres" target="nf_en_470_1">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="guetres" target="guetres_repondent_criteres_protection_vetements">
+  <data key="d2">HAS_SPECIFICATION</data>
+</edge>
+<edge source="guetres" target="projections_metaux">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="guetres" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="pantalon" target="pantalon_doit_recouvrir_guetres">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="pantalon_doit_recouvrir_guetres" target="projections_metal_brulent_soudeur">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="traitement_antimicrobien_antifongique" target="developpement_bacteries">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="traitement_antimicrobien_antifongique" target="developpement_champignons">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="pantalon_soudeur" target="norme_nf_en_470_1">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="pantalon_soudeur" target="coton_ignifuge">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="pantalon_soudeur" target="cuir_traite_ignifuge">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="pantalon_soudeur" target="porter_pantalon_ignifuge">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="pantalon_soudeur" target="poches_exterieures_pantalon">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="pantalon_soudeur" target="revers_pantalon">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="pantalon_soudeur" target="fermeture_glissiere_pantalon">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="pantalon_soudeur" target="accessoire_metallique_pantalon">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="pantalon_soudeur" target="fermer_poches_rabat_projections_metal">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="pantalon_soudeur" target="pas_de_revers_pantalon_projections_metal">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="pantalon_soudeur" target="aucun_accessoire_metallique_autorise_pantalon">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="pantalon_soudeur" target="projections_metal">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="pantalon_soudeur" target="brulure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="pantalon_soudeur" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="cuissardes" target="soudage">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="cuissardes" target="chaleur">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="cuissardes" target="projections_metal">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="cuissardes" target="cuir">
+  <data key="d2">MADE_OF</data>
+</edge>
+<edge source="cuissardes" target="norme_nf_en_470_1">
+  <data key="d2">COMPLIES_WITH</data>
+</edge>
+<edge source="cuissardes" target="jambes">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="genouilleres" target="travailler_genoux">
+  <data key="d2">USED_FOR_ACTIVITY</data>
+</edge>
+<edge source="genouilleres" target="genoux">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="genouilleres" target="articulations">
+  <data key="d2">PROTECTS_BODY_PART</data>
+</edge>
+<edge source="genouilleres" target="syndrome_hydroma">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="poches_exterieures_pantalon" target="rabat_poches">
+  <data key="d2">HAS_COMPONENT</data>
+</edge>
+<edge source="poches_exterieures_pantalon" target="brulure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="revers_pantalon" target="brulure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="fermeture_glissiere_pantalon" target="brulure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="fermeture_glissiere_pantalon" target="impossibilite_oter_pantalon">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="accessoire_metallique_pantalon" target="brulure">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="accessoire_metallique_pantalon" target="impossibilite_oter_pantalon">
+  <data key="d2">FIGHTS_AGAINST</data>
+</edge>
+<edge source="travailler_genoux" target="porter_genouilleres_travail_genoux">
+  <data key="d2">HAS_RULE</data>
+</edge>
+<edge source="pieds" target="preserver_hygiene_pied">
+  <data key="d2">HAS_RULE</data>
+</edge>
+</graph></graphml>

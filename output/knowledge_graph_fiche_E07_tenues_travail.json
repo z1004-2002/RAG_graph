@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "id": "tenues_de_travail",
+            "label": "Tenues de travail",
+            "type": "Equipment"
+        },
+        {
+            "id": "employeur_louer_vetements",
+            "label": "L'employeur doit louer les vêtements de travail",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "fournisseur_entretien_maintenance",
+            "label": "Le fournisseur est chargé de l'entretien et de la maintenance des tenues",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "entretien_par_prestataire",
+            "label": "Faire entretenir les vêtements de travail par un prestataire de service",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "tenues_enlevees_regulierement_entretien",
+            "label": "Les tenues doivent être enlevées régulièrement pour entretien",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "entretien_en_interne",
+            "label": "Effectuer l'entretien des tenues en interne",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "specification_temperature_lavage",
+            "label": "Température de lavage",
+            "type": "Specification"
+        },
+        {
+            "id": "specification_nombre_lavages",
+            "label": "Nombre de lavages",
+            "type": "Specification"
+        }
+    ],
+    "edges": [
+        {
+            "source": "tenues_de_travail",
+            "target": "employeur_louer_vetements",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "tenues_de_travail",
+            "target": "fournisseur_entretien_maintenance",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "tenues_de_travail",
+            "target": "entretien_par_prestataire",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "tenues_de_travail",
+            "target": "tenues_enlevees_regulierement_entretien",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "tenues_de_travail",
+            "target": "entretien_en_interne",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "entretien_en_interne",
+            "target": "specification_temperature_lavage",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "entretien_en_interne",
+            "target": "specification_nombre_lavages",
+            "type": "HAS_SPECIFICATION"
+        }
+    ]
+}

@@ -1,0 +1,1221 @@
+{
+    "nodes": [
+        {
+            "id": "chapeau_larges_bords_ete",
+            "label": "Chapeau à larges bords (été)",
+            "type": "Equipment"
+        },
+        {
+            "id": "bonnet_hiver",
+            "label": "Bonnet (hiver)",
+            "type": "Equipment"
+        },
+        {
+            "id": "protection_antibruit",
+            "label": "Protection anti-bruit",
+            "type": "Equipment"
+        },
+        {
+            "id": "bouchons_protection_antibruit",
+            "label": "Bouchons anti-bruit",
+            "type": "Component"
+        },
+        {
+            "id": "casque_protection_antibruit",
+            "label": "Casque anti-bruit",
+            "type": "Component"
+        },
+        {
+            "id": "casque_forestier",
+            "label": "Casque forestier",
+            "type": "Equipment"
+        },
+        {
+            "id": "ecran_protection_faciale",
+            "label": "Écran de protection faciale",
+            "type": "Equipment"
+        },
+        {
+            "id": "grille_protection_faciale",
+            "label": "Grille de protection faciale",
+            "type": "Equipment"
+        },
+        {
+            "id": "lunettes_securite",
+            "label": "Lunettes de sécurité",
+            "type": "Equipment"
+        },
+        {
+            "id": "casque_securite",
+            "label": "Casque de sécurité",
+            "type": "Equipment"
+        },
+        {
+            "id": "masque_protection_respiratoire",
+            "label": "Masque de protection respiratoire",
+            "type": "Equipment"
+        },
+        {
+            "id": "vetements_travail_ete",
+            "label": "Vêtements de travail (été)",
+            "type": "Equipment"
+        },
+        {
+            "id": "pantalon_vetements_travail",
+            "label": "Pantalon de travail",
+            "type": "Component"
+        },
+        {
+            "id": "haut_manches_longues_vetements_travail",
+            "label": "Haut à manches longues de travail",
+            "type": "Component"
+        },
+        {
+            "id": "vetements_travail_hiver",
+            "label": "Vêtements de travail (hiver)",
+            "type": "Equipment"
+        },
+        {
+            "id": "tenue_signalisation_haute_visibilite",
+            "label": "Tenue de signalisation haute visibilité",
+            "type": "Equipment"
+        },
+        {
+            "id": "haut_tenue_signalisation",
+            "label": "Haut de tenue de signalisation",
+            "type": "Component"
+        },
+        {
+            "id": "pantalon_tenue_signalisation",
+            "label": "Pantalon de tenue de signalisation",
+            "type": "Component"
+        },
+        {
+            "id": "parties_fluorescentes",
+            "label": "Parties fluorescentes",
+            "type": "Component"
+        },
+        {
+            "id": "parties_retroreflechissantes",
+            "label": "Parties rétroréfléchissantes",
+            "type": "Component"
+        },
+        {
+            "id": "veste_protection_scies_chaine",
+            "label": "Veste de protection (scies à chaîne)",
+            "type": "Equipment"
+        },
+        {
+            "id": "manchettes_protection_scies_chaine",
+            "label": "Manchettes de protection (scies à chaîne)",
+            "type": "Equipment"
+        },
+        {
+            "id": "pantalon_securite_scies_chaine",
+            "label": "Pantalon de sécurité (scies à chaîne)",
+            "type": "Equipment"
+        },
+        {
+            "id": "surpantalon_securite_scies_chaine",
+            "label": "Surpantalon de sécurité (scies à chaîne)",
+            "type": "Equipment"
+        },
+        {
+            "id": "tenue_jetable",
+            "label": "Tenue jetable",
+            "type": "Equipment"
+        },
+        {
+            "id": "gants_protection_mecanique_coupures",
+            "label": "Gants de protection mécanique (coupures)",
+            "type": "Equipment"
+        },
+        {
+            "id": "gants_enduction_polyurethane",
+            "label": "Gants enduits polyuréthane",
+            "type": "Equipment"
+        },
+        {
+            "id": "gants_protection_mecanique_renforcee",
+            "label": "Gants de protection mécanique renforcée",
+            "type": "Equipment"
+        },
+        {
+            "id": "gants_protection_scies_chaine",
+            "label": "Gants de protection (scies à chaîne)",
+            "type": "Equipment"
+        },
+        {
+            "id": "gants_protection_chimique",
+            "label": "Gants de protection chimique",
+            "type": "Equipment"
+        },
+        {
+            "id": "chaussures_securite_pieds",
+            "label": "Chaussures de sécurité",
+            "type": "Equipment"
+        },
+        {
+            "id": "guetres_protection_scies_chaine",
+            "label": "Guêtres de protection (scies à chaîne)",
+            "type": "Equipment"
+        },
+        {
+            "id": "chaussures_securite_dessus_pied_renforce",
+            "label": "Chaussures de sécurité (dessus du pied renforcé)",
+            "type": "Equipment"
+        },
+        {
+            "id": "bottes_securite_impermeables",
+            "label": "Bottes de sécurité imperméables",
+            "type": "Equipment"
+        },
+        {
+            "id": "travail_exterieur",
+            "label": "Travail à l'extérieur",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "utilisation_equipement_moteur",
+            "label": "Utilisation d'un équipement à moteur",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "intervention_proximite_equipement_moteur",
+            "label": "Intervention à proximité d'un équipement à moteur",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "traitement_phytosanitaire",
+            "label": "Traitement phytosanitaire",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "activite_foret",
+            "label": "Activité en forêt",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "activite_milieu_boise",
+            "label": "Activité en milieu boisé",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "activite_milieu_humide",
+            "label": "Activité en milieu humide",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "activite_bord_plan_eau",
+            "label": "Activité en bord de plan d'eau",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "activite_bord_riviere",
+            "label": "Activité en bord de rivière",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "travail_route",
+            "label": "Travail sur la route",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "travail_proximite_route",
+            "label": "Travail à proximité de la route",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "travail_proximite_engins_mouvement",
+            "label": "Travail à proximité d'engins en mouvement",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "tronconnage",
+            "label": "Tronçonnage",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "elagage_tronconneuse",
+            "label": "Élagage avec tronçonneuse",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "utilisation_outils",
+            "label": "Utilisation d'outils",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "utilisation_equipements_travail",
+            "label": "Utilisation d'équipements de travail",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "manutention",
+            "label": "Manutention",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "plantation",
+            "label": "Plantation",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "desherbage_manuel",
+            "label": "Désherbage manuel",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "manipulation_epineux",
+            "label": "Manipulation d'épineux",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "taille_outil_main",
+            "label": "Taille avec un outil à main",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "toutes_activites_espaces_verts",
+            "label": "Toutes les activités des espaces verts",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "intervention_milieu_humide",
+            "label": "Intervention en milieu humide",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "intervention_bord_eau",
+            "label": "Intervention en bord d'eau",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "exposition_climatique",
+            "label": "Exposition climatique",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "bruit",
+            "label": "Bruit",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "projections",
+            "label": "Projections (copeaux, herbes, poussières)",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "chutes_objet",
+            "label": "Chute d'objet (branches, outils)",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "choc",
+            "label": "Choc",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "chimique",
+            "label": "Chimique",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "zoonose",
+            "label": "Zoonose",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "routier",
+            "label": "Risque routier",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "coupure",
+            "label": "Coupure",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "biologique",
+            "label": "Biologique",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "piqure",
+            "label": "Piqûre",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "chute_plain_pied",
+            "label": "Chute de plain-pied",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "en_iso_11393",
+            "label": "Norme EN ISO 11393",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "en_388_2_3_3_3",
+            "label": "Norme EN 388 2.3.3.3",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "en_388_4_2_4_2",
+            "label": "Norme EN 388 4.2.4.2",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "code_travail_l4321_1",
+            "label": "Code du travail L4321-1",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "code_travail_r4321_1",
+            "label": "Code du travail R4321-1 et suivants",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "decret_85_603_10_juin_1985",
+            "label": "Décret 85-603 du 10 juin 1985",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "jetable_ou_reutilisable",
+            "label": "Jetable ou réutilisable",
+            "type": "Specification"
+        },
+        {
+            "id": "type_3_4",
+            "label": "Type 3-4",
+            "type": "Specification"
+        },
+        {
+            "id": "classe_ii_minimum",
+            "label": "Classe II (minimum)",
+            "type": "Specification"
+        },
+        {
+            "id": "couleur_claire",
+            "label": "Couleur claire",
+            "type": "Specification"
+        },
+        {
+            "id": "mailles_serrees",
+            "label": "Mailles serrées",
+            "type": "Specification"
+        },
+        {
+            "id": "chauds_respirants_plusieurs_epaisseurs",
+            "label": "Chauds et respirants (plusieurs épaisseurs)",
+            "type": "Specification"
+        },
+        {
+            "id": "montantes_maintien_cheville",
+            "label": "Montantes avec maintien de la cheville",
+            "type": "Specification"
+        },
+        {
+            "id": "semelles_crantees",
+            "label": "Semelles crantées",
+            "type": "Specification"
+        },
+        {
+            "id": "resistance_eau_s3",
+            "label": "Résistance à l'eau (S3)",
+            "type": "Specification"
+        },
+        {
+            "id": "protection_dessus_pied_renforcee",
+            "label": "Protection du dessus du pied renforcée",
+            "type": "Specification"
+        },
+        {
+            "id": "refer_fiche_donnees_securite_produit_masque",
+            "label": "Se référer à la fiche de données de sécurité du produit (pour masque)",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "preferer_couleur_orange_insectes",
+            "label": "Privilégier la couleur orange (attire moins les insectes)",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "refer_fiche_donnees_securite_produit_gants",
+            "label": "Se référer à la fiche de données de sécurité du produit (pour gants)",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "tete",
+            "label": "Tête",
+            "type": "Body_Part"
+        },
+        {
+            "id": "corps",
+            "label": "Corps",
+            "type": "Body_Part"
+        },
+        {
+            "id": "mains",
+            "label": "Mains",
+            "type": "Body_Part"
+        },
+        {
+            "id": "pieds",
+            "label": "Pieds",
+            "type": "Body_Part"
+        },
+        {
+            "id": "cheville",
+            "label": "Cheville",
+            "type": "Body_Part"
+        },
+        {
+            "id": "dessus_pied",
+            "label": "Dessus du pied",
+            "type": "Body_Part"
+        },
+        {
+            "id": "polyurethane",
+            "label": "Polyuréthane",
+            "type": "Material"
+        },
+        {
+            "id": "latex",
+            "label": "Latex",
+            "type": "Material"
+        },
+        {
+            "id": "nitrile",
+            "label": "Nitrile",
+            "type": "Material"
+        },
+        {
+            "id": "fluorescent",
+            "label": "Fluorescent",
+            "type": "Material"
+        },
+        {
+            "id": "retroreflectissant",
+            "label": "Rétroréfléchissant",
+            "type": "Material"
+        }
+    ],
+    "edges": [
+        {
+            "source": "chapeau_larges_bords_ete",
+            "target": "travail_exterieur",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "chapeau_larges_bords_ete",
+            "target": "exposition_climatique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "chapeau_larges_bords_ete",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "bonnet_hiver",
+            "target": "travail_exterieur",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "bonnet_hiver",
+            "target": "exposition_climatique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "bonnet_hiver",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "protection_antibruit",
+            "target": "utilisation_equipement_moteur",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "protection_antibruit",
+            "target": "intervention_proximite_equipement_moteur",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "protection_antibruit",
+            "target": "bruit",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "protection_antibruit",
+            "target": "jetable_ou_reutilisable",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "protection_antibruit",
+            "target": "bouchons_protection_antibruit",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "protection_antibruit",
+            "target": "casque_protection_antibruit",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "protection_antibruit",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "casque_forestier",
+            "target": "bruit",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "casque_forestier",
+            "target": "projections",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "casque_forestier",
+            "target": "chutes_objet",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "casque_forestier",
+            "target": "choc",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "casque_forestier",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "ecran_protection_faciale",
+            "target": "projections",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "ecran_protection_faciale",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "grille_protection_faciale",
+            "target": "projections",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "grille_protection_faciale",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "lunettes_securite",
+            "target": "projections",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_securite",
+            "target": "chimique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_securite",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "lunettes_securite",
+            "target": "traitement_phytosanitaire",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "casque_securite",
+            "target": "chutes_objet",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "casque_securite",
+            "target": "choc",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "casque_securite",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "masque_protection_respiratoire",
+            "target": "chimique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "masque_protection_respiratoire",
+            "target": "traitement_phytosanitaire",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "masque_protection_respiratoire",
+            "target": "refer_fiche_donnees_securite_produit_masque",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "masque_protection_respiratoire",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "travail_exterieur",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "activite_foret",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "activite_milieu_boise",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "activite_milieu_humide",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "activite_bord_plan_eau",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "activite_bord_riviere",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "exposition_climatique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "zoonose",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "couleur_claire",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "mailles_serrees",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "pantalon_vetements_travail",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "haut_manches_longues_vetements_travail",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "vetements_travail_ete",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "travail_exterieur",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "activite_foret",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "activite_milieu_boise",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "activite_milieu_humide",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "activite_bord_plan_eau",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "activite_bord_riviere",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "exposition_climatique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "zoonose",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "chauds_respirants_plusieurs_epaisseurs",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "vetements_travail_hiver",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "travail_route",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "travail_proximite_route",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "travail_proximite_engins_mouvement",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "routier",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "classe_ii_minimum",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "preferer_couleur_orange_insectes",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "haut_tenue_signalisation",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "pantalon_tenue_signalisation",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "parties_fluorescentes",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "parties_retroreflechissantes",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "tenue_signalisation_haute_visibilite",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "parties_fluorescentes",
+            "target": "fluorescent",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "parties_retroreflechissantes",
+            "target": "retroreflectissant",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "veste_protection_scies_chaine",
+            "target": "tronconnage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "veste_protection_scies_chaine",
+            "target": "elagage_tronconneuse",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "veste_protection_scies_chaine",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "veste_protection_scies_chaine",
+            "target": "en_iso_11393",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "veste_protection_scies_chaine",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "manchettes_protection_scies_chaine",
+            "target": "tronconnage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "manchettes_protection_scies_chaine",
+            "target": "elagage_tronconneuse",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "manchettes_protection_scies_chaine",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "manchettes_protection_scies_chaine",
+            "target": "en_iso_11393",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "manchettes_protection_scies_chaine",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "pantalon_securite_scies_chaine",
+            "target": "tronconnage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "pantalon_securite_scies_chaine",
+            "target": "elagage_tronconneuse",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "pantalon_securite_scies_chaine",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "pantalon_securite_scies_chaine",
+            "target": "en_iso_11393",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "pantalon_securite_scies_chaine",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "surpantalon_securite_scies_chaine",
+            "target": "tronconnage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "surpantalon_securite_scies_chaine",
+            "target": "elagage_tronconneuse",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "surpantalon_securite_scies_chaine",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "surpantalon_securite_scies_chaine",
+            "target": "en_iso_11393",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "surpantalon_securite_scies_chaine",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "tenue_jetable",
+            "target": "traitement_phytosanitaire",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "tenue_jetable",
+            "target": "chimique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "tenue_jetable",
+            "target": "type_3_4",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "tenue_jetable",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "gants_protection_mecanique_coupures",
+            "target": "utilisation_outils",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_mecanique_coupures",
+            "target": "utilisation_equipements_travail",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_mecanique_coupures",
+            "target": "manutention",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_mecanique_coupures",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_protection_mecanique_coupures",
+            "target": "en_388_2_3_3_3",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "gants_protection_mecanique_coupures",
+            "target": "mains",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "gants_enduction_polyurethane",
+            "target": "plantation",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_enduction_polyurethane",
+            "target": "desherbage_manuel",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_enduction_polyurethane",
+            "target": "biologique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_enduction_polyurethane",
+            "target": "polyurethane",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "gants_enduction_polyurethane",
+            "target": "mains",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "gants_protection_mecanique_renforcee",
+            "target": "manipulation_epineux",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_mecanique_renforcee",
+            "target": "taille_outil_main",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_mecanique_renforcee",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_protection_mecanique_renforcee",
+            "target": "piqure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_protection_mecanique_renforcee",
+            "target": "en_388_4_2_4_2",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "gants_protection_mecanique_renforcee",
+            "target": "mains",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "gants_protection_scies_chaine",
+            "target": "tronconnage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_scies_chaine",
+            "target": "elagage_tronconneuse",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_scies_chaine",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_protection_scies_chaine",
+            "target": "mains",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "gants_protection_chimique",
+            "target": "traitement_phytosanitaire",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_protection_chimique",
+            "target": "chimique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_protection_chimique",
+            "target": "latex",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "gants_protection_chimique",
+            "target": "nitrile",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "gants_protection_chimique",
+            "target": "refer_fiche_donnees_securite_produit_gants",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "gants_protection_chimique",
+            "target": "mains",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "chaussures_securite_pieds",
+            "target": "toutes_activites_espaces_verts",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "chaussures_securite_pieds",
+            "target": "chute_plain_pied",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "chaussures_securite_pieds",
+            "target": "montantes_maintien_cheville",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "chaussures_securite_pieds",
+            "target": "semelles_crantees",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "chaussures_securite_pieds",
+            "target": "resistance_eau_s3",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "chaussures_securite_pieds",
+            "target": "pieds",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "chaussures_securite_pieds",
+            "target": "cheville",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "guetres_protection_scies_chaine",
+            "target": "tronconnage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "guetres_protection_scies_chaine",
+            "target": "elagage_tronconneuse",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "guetres_protection_scies_chaine",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "guetres_protection_scies_chaine",
+            "target": "pieds",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "chaussures_securite_dessus_pied_renforce",
+            "target": "tronconnage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "chaussures_securite_dessus_pied_renforce",
+            "target": "elagage_tronconneuse",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "chaussures_securite_dessus_pied_renforce",
+            "target": "coupure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "chaussures_securite_dessus_pied_renforce",
+            "target": "protection_dessus_pied_renforcee",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "chaussures_securite_dessus_pied_renforce",
+            "target": "pieds",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "chaussures_securite_dessus_pied_renforce",
+            "target": "dessus_pied",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "bottes_securite_impermeables",
+            "target": "intervention_milieu_humide",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "bottes_securite_impermeables",
+            "target": "intervention_bord_eau",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "bottes_securite_impermeables",
+            "target": "traitement_phytosanitaire",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "bottes_securite_impermeables",
+            "target": "biologique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "bottes_securite_impermeables",
+            "target": "chimique",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "bottes_securite_impermeables",
+            "target": "pieds",
+            "type": "PROTECTS_BODY_PART"
+        }
+    ]
+}

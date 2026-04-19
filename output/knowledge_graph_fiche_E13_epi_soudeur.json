@@ -1,0 +1,1491 @@
+{
+    "nodes": [
+        {
+            "id": "soudage",
+            "label": "Soudage",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "rayonnements_lumineux",
+            "label": "Rayonnements lumineux",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "projections_metaux",
+            "label": "Projections de métaux",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "lunettes_protection",
+            "label": "Lunettes de protection",
+            "type": "Equipment"
+        },
+        {
+            "id": "verres_teintes",
+            "label": "Verres teintés",
+            "type": "Component"
+        },
+        {
+            "id": "coques_laterales",
+            "label": "Coques latérales",
+            "type": "Component"
+        },
+        {
+            "id": "elastique_serre_tete",
+            "label": "Élastique serre-tête",
+            "type": "Component"
+        },
+        {
+            "id": "etancheite_milieu_ambiant",
+            "label": "Assure l'étanchéité avec le milieu ambiant",
+            "type": "Specification"
+        },
+        {
+            "id": "port_lunettes_correctrices_possible_sous_lunettes_protection",
+            "label": "Port de lunettes correctrices possible sous cet équipement",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "choix_lunettes_selon_activite_soudeur",
+            "label": "Choix des lunettes selon l'activité du soudeur",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "assemblage",
+            "label": "Assemblage",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "decoupage",
+            "label": "Découpage",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "soudage_arc",
+            "label": "Soudage à l'arc",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "ecran_facial",
+            "label": "Écran facial (Casque de protection)",
+            "type": "Equipment"
+        },
+        {
+            "id": "yeux",
+            "label": "Yeux",
+            "type": "Body_Part"
+        },
+        {
+            "id": "visage",
+            "label": "Visage",
+            "type": "Body_Part"
+        },
+        {
+            "id": "cou",
+            "label": "Cou",
+            "type": "Body_Part"
+        },
+        {
+            "id": "protection_globale",
+            "label": "Protection globale",
+            "type": "Specification"
+        },
+        {
+            "id": "n_assure_pas_etancheite_milieu_exterieur",
+            "label": "N'assure pas l'étanchéité avec le milieu extérieur",
+            "type": "Specification"
+        },
+        {
+            "id": "cagoule",
+            "label": "Cagoule",
+            "type": "Equipment"
+        },
+        {
+            "id": "cagoule_doit_repondre_criteres_protection_vetements",
+            "label": "Cagoule doit répondre aux critères de protection des vêtements",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "filtres_optiques",
+            "label": "Filtres optiques",
+            "type": "Component"
+        },
+        {
+            "id": "filtres_optiques_adaptes_rayonnement_soudage",
+            "label": "Filtres optiques adaptés au rayonnement du procédé de soudage",
+            "type": "Specification"
+        },
+        {
+            "id": "masque_soudage",
+            "label": "Masque de soudage",
+            "type": "Equipment"
+        },
+        {
+            "id": "filtres_actifs",
+            "label": "Filtres actifs",
+            "type": "Component"
+        },
+        {
+            "id": "pas_necessaire_relever_abaisser_masque_soudage",
+            "label": "Pas nécessaire de relever et d'abaisser le masque pendant le soudage",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "mains_libres_durant_operation",
+            "label": "Mains libres durant l'opération",
+            "type": "Specification"
+        },
+        {
+            "id": "equipement_protection_individuelle",
+            "label": "Équipement de protection individuelle (général)",
+            "type": "Equipment"
+        },
+        {
+            "id": "en_166",
+            "label": "Norme EN 166",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "verres_clairs",
+            "label": "Verres clairs",
+            "type": "Component"
+        },
+        {
+            "id": "en_169",
+            "label": "Norme EN 169",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "en_175",
+            "label": "Norme EN 175",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "filtres_protection",
+            "label": "Filtres de protection",
+            "type": "Component"
+        },
+        {
+            "id": "protection_voies_respiratoires",
+            "label": "Protection des voies respiratoires",
+            "type": "Equipment"
+        },
+        {
+            "id": "gaz_dangereux_combustion_metaux",
+            "label": "Gaz dangereux lors de la combustion des métaux",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "postes_soudage_bruyants",
+            "label": "Postes de soudage bruyants",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "environnements_travail_bruyants",
+            "label": "Environnements de travail bruyants",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "bruit",
+            "label": "Bruit",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "protections_auditives",
+            "label": "Protections auditives",
+            "type": "Equipment"
+        },
+        {
+            "id": "masque_antibruit",
+            "label": "Masque antibruit",
+            "type": "Component"
+        },
+        {
+            "id": "bouchons_oreille",
+            "label": "Bouchons d'oreille",
+            "type": "Component"
+        },
+        {
+            "id": "tete",
+            "label": "Tête",
+            "type": "Body_Part"
+        },
+        {
+            "id": "equipement_protection_individuelle_specifique",
+            "label": "Équipement de protection individuelle spécifique",
+            "type": "Equipment"
+        },
+        {
+            "id": "code_du_travail_r4534_131_135",
+            "label": "Code du travail, articles R.4534-131 à R.4534-135",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "lunettes_branches",
+            "label": "Lunettes à branches",
+            "type": "Equipment"
+        },
+        {
+            "id": "lunettes_masques",
+            "label": "Lunettes masques",
+            "type": "Equipment"
+        },
+        {
+            "id": "soudage_gaz",
+            "label": "Soudage au gaz",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "soudage_electrique",
+            "label": "Soudage électrique",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "en_379",
+            "label": "Norme EN 379",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "rayonnement_uv",
+            "label": "Rayonnement UV",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "en_170",
+            "label": "Norme EN 170",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "rayonnement_infrarouge",
+            "label": "Rayonnement infrarouge",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "en_171",
+            "label": "Norme EN 171",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "rayonnement_laser",
+            "label": "Rayonnement laser",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "en_207",
+            "label": "Norme EN 207",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "en_208",
+            "label": "Norme EN 208",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "rayonnement_solaire_industriel",
+            "label": "Rayonnement solaire (usage industriel)",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "en_172",
+            "label": "Norme EN 172",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "mains",
+            "label": "Mains",
+            "type": "Body_Part"
+        },
+        {
+            "id": "protections_mains",
+            "label": "Protections pour les mains",
+            "type": "Equipment"
+        },
+        {
+            "id": "activite_caracteristique_soudeur",
+            "label": "Activité caractéristique du soudeur",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "en_407",
+            "label": "Norme EN 407",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "en_12477_a1",
+            "label": "Norme EN 12477/A1",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "gants_antithermiques",
+            "label": "Gants antithermiques",
+            "type": "Equipment"
+        },
+        {
+            "id": "chaleur_degagee_soudage_assemblage",
+            "label": "Chaleur dégagée pendant le soudage ou l'assemblage",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "ignifuges_gants",
+            "label": "Ignifugés (gants)",
+            "type": "Specification"
+        },
+        {
+            "id": "propagation_flamme",
+            "label": "Propagation de la flamme",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "vetements_protection_chaleur_flamme",
+            "label": "Vêtements de protection contre la chaleur et la flamme",
+            "type": "Equipment"
+        },
+        {
+            "id": "chaleur",
+            "label": "Chaleur",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "flamme",
+            "label": "Flamme",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "choix_vetements_selon_usage_analyse_risques",
+            "label": "Choix des vêtements selon l'usage et l'analyse des risques",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "nf_en_470_1",
+            "label": "Norme NF EN 470-1",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "vetements_difficilement_combustibles",
+            "label": "Vêtements difficilement combustibles",
+            "type": "Equipment"
+        },
+        {
+            "id": "isolants_vetements",
+            "label": "Isolants (vêtements)",
+            "type": "Specification"
+        },
+        {
+            "id": "ignifuges_vetements",
+            "label": "Ignifugés (vêtements)",
+            "type": "Specification"
+        },
+        {
+            "id": "petites_projections_metaux",
+            "label": "Petites projections de métaux",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "tablier_cuir",
+            "label": "Tablier en cuir",
+            "type": "Equipment"
+        },
+        {
+            "id": "corps",
+            "label": "Corps",
+            "type": "Body_Part"
+        },
+        {
+            "id": "cuir",
+            "label": "Cuir",
+            "type": "Material"
+        },
+        {
+            "id": "manchettes_cuir",
+            "label": "Manchettes en cuir",
+            "type": "Component"
+        },
+        {
+            "id": "avant_bras",
+            "label": "Avant-bras",
+            "type": "Body_Part"
+        },
+        {
+            "id": "survetements_protection",
+            "label": "Survêtements de protection",
+            "type": "Equipment"
+        },
+        {
+            "id": "degagement_chaleur_important",
+            "label": "Dégagement de chaleur important",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "isolation_source_chaleur",
+            "label": "Isolation de la source de chaleur",
+            "type": "Specification"
+        },
+        {
+            "id": "employeur_nettoyer_vetements_travail_regulierement",
+            "label": "L'employeur doit nettoyer les vêtements de travail régulièrement",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "enflammement_tenue_souillee_graisse",
+            "label": "Enflammement d'une tenue souillée de graisse",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "chaussures_securite",
+            "label": "Chaussures de sécurité",
+            "type": "Equipment"
+        },
+        {
+            "id": "port_chaussures_securite_obligatoire",
+            "label": "Port de chaussures de sécurité obligatoire",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "en_345",
+            "label": "Norme EN 345",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "chaussures_securite_montantes_isolantes_chaleur",
+            "label": "Chaussures de sécurité montantes et isolantes à la chaleur",
+            "type": "Equipment"
+        },
+        {
+            "id": "montantes",
+            "label": "Montantes",
+            "type": "Specification"
+        },
+        {
+            "id": "isolantes_chaleur_chaussures",
+            "label": "Isolantes à la chaleur (chaussures)",
+            "type": "Specification"
+        },
+        {
+            "id": "tige_chaussure",
+            "label": "Tige de la chaussure",
+            "type": "Component"
+        },
+        {
+            "id": "limite_transfert_chaleur",
+            "label": "Limite le transfert de la chaleur",
+            "type": "Specification"
+        },
+        {
+            "id": "enflammement_consommation_contact_gouttes_metal_fusion",
+            "label": "Enflammement ou consommation au contact de gouttes de métal en fusion",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "guetres",
+            "label": "Guêtres",
+            "type": "Equipment"
+        },
+        {
+            "id": "guetres_repondent_criteres_protection_vetements",
+            "label": "Guêtres répondent aux critères de protection des vêtements",
+            "type": "Specification"
+        },
+        {
+            "id": "pantalon",
+            "label": "Pantalon",
+            "type": "Equipment"
+        },
+        {
+            "id": "pantalon_doit_recouvrir_guetres",
+            "label": "Le pantalon doit recouvrir les guêtres",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "projections_metal_brulent_soudeur",
+            "label": "Projections de métal brûlant le soudeur",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "traitement_antimicrobien_antifongique",
+            "label": "Traitement antimicrobien et antifongique régulier",
+            "type": "Specification"
+        },
+        {
+            "id": "developpement_bacteries",
+            "label": "Développement de bactéries",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "developpement_champignons",
+            "label": "Développement de champignons",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "pantalon_soudeur",
+            "label": "Pantalon du soudeur",
+            "type": "Equipment"
+        },
+        {
+            "id": "cuissardes",
+            "label": "Cuissardes",
+            "type": "Equipment"
+        },
+        {
+            "id": "genouilleres",
+            "label": "Genouillères",
+            "type": "Equipment"
+        },
+        {
+            "id": "poches_exterieures_pantalon",
+            "label": "Poches extérieures du pantalon",
+            "type": "Component"
+        },
+        {
+            "id": "rabat_poches",
+            "label": "Rabat des poches",
+            "type": "Component"
+        },
+        {
+            "id": "revers_pantalon",
+            "label": "Revers du pantalon",
+            "type": "Component"
+        },
+        {
+            "id": "fermeture_glissiere_pantalon",
+            "label": "Fermeture à glissière du pantalon",
+            "type": "Component"
+        },
+        {
+            "id": "accessoire_metallique_pantalon",
+            "label": "Accessoire métallique du pantalon",
+            "type": "Component"
+        },
+        {
+            "id": "soudage",
+            "label": "Soudage",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "travailler_genoux",
+            "label": "Travailler à genoux",
+            "type": "Activity_Domain"
+        },
+        {
+            "id": "projections_metal",
+            "label": "Projections de métal",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "brulure",
+            "label": "Brûlure",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "chaleur",
+            "label": "Chaleur",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "syndrome_hydroma",
+            "label": "Syndrome d’hydroma",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "impossibilite_oter_pantalon",
+            "label": "Impossibilité d'ôter le pantalon",
+            "type": "Risk_Hazard"
+        },
+        {
+            "id": "norme_nf_en_470_1",
+            "label": "Norme NF EN 470-1",
+            "type": "Standard_Regulation"
+        },
+        {
+            "id": "preserver_hygiene_pied",
+            "label": "Préserver l'hygiène du pied",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "porter_pantalon_ignifuge",
+            "label": "Porter un pantalon en coton ignifugé ou cuir traité ignifuge",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "fermer_poches_rabat_projections_metal",
+            "label": "Fermer les poches extérieures avec un rabat en cas de projections de métal",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "pas_de_revers_pantalon_projections_metal",
+            "label": "Le pantalon ne doit pas posséder de revers en cas de projections de métal",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "aucun_accessoire_metallique_autorise_pantalon",
+            "label": "Aucun accessoire métallique n'est autorisé sur le pantalon",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "porter_genouilleres_travail_genoux",
+            "label": "Porter des genouillères lors du travail à genoux",
+            "type": "Rule_Instruction"
+        },
+        {
+            "id": "pieds",
+            "label": "Pieds",
+            "type": "Body_Part"
+        },
+        {
+            "id": "articulations",
+            "label": "Articulations",
+            "type": "Body_Part"
+        },
+        {
+            "id": "genoux",
+            "label": "Genoux",
+            "type": "Body_Part"
+        },
+        {
+            "id": "peau",
+            "label": "Peau",
+            "type": "Body_Part"
+        },
+        {
+            "id": "rotule",
+            "label": "Rotule",
+            "type": "Body_Part"
+        },
+        {
+            "id": "jambes",
+            "label": "Jambes",
+            "type": "Body_Part"
+        },
+        {
+            "id": "coton_ignifuge",
+            "label": "Coton ignifugé",
+            "type": "Material"
+        },
+        {
+            "id": "cuir_traite_ignifuge",
+            "label": "Cuir traité ignifuge",
+            "type": "Material"
+        },
+        {
+            "id": "cuir",
+            "label": "Cuir",
+            "type": "Material"
+        }
+    ],
+    "edges": [
+        {
+            "source": "lunettes_protection",
+            "target": "verres_teintes",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "coques_laterales",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "elastique_serre_tete",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "etancheite_milieu_ambiant",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "port_lunettes_correctrices_possible_sous_lunettes_protection",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "choix_lunettes_selon_activite_soudeur",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "assemblage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "decoupage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "lunettes_protection",
+            "target": "soudage_arc",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "yeux",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "visage",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "cou",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "protection_globale",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "n_assure_pas_etancheite_milieu_exterieur",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "cagoule",
+            "target": "cagoule_doit_repondre_criteres_protection_vetements",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "filtres_optiques",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "filtres_optiques",
+            "target": "filtres_optiques_adaptes_rayonnement_soudage",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "masque_soudage",
+            "target": "filtres_actifs",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "masque_soudage",
+            "target": "pas_necessaire_relever_abaisser_masque_soudage",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "masque_soudage",
+            "target": "mains_libres_durant_operation",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "masque_soudage",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "equipement_protection_individuelle",
+            "target": "en_166",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "equipement_protection_individuelle",
+            "target": "en_169",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "equipement_protection_individuelle",
+            "target": "en_175",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "filtres_optiques",
+            "target": "en_166",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "filtres_optiques",
+            "target": "en_169",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "filtres_optiques",
+            "target": "en_175",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "verres_clairs",
+            "target": "en_166",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "verres_teintes",
+            "target": "en_169",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "filtres_protection",
+            "target": "en_175",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "protection_voies_respiratoires",
+            "target": "gaz_dangereux_combustion_metaux",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "protections_auditives",
+            "target": "postes_soudage_bruyants",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "protections_auditives",
+            "target": "environnements_travail_bruyants",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "protections_auditives",
+            "target": "bruit",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "protections_auditives",
+            "target": "masque_antibruit",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "protections_auditives",
+            "target": "bouchons_oreille",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "equipement_protection_individuelle_specifique",
+            "target": "tete",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "equipement_protection_individuelle_specifique",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "equipement_protection_individuelle_specifique",
+            "target": "assemblage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "soudage_gaz",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "soudage_gaz",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "soudage_gaz",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "en_166",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "en_169",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "en_166",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "en_169",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_166",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_169",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "soudage_electrique",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_175",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_379",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "rayonnement_uv",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "rayonnement_uv",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "rayonnement_uv",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "en_170",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "en_170",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_170",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "rayonnement_infrarouge",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "rayonnement_infrarouge",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "rayonnement_infrarouge",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "en_171",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "en_171",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_171",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "rayonnement_laser",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "rayonnement_laser",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "rayonnement_laser",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "en_207",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "en_208",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "en_207",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "en_208",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_207",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_208",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "rayonnement_solaire_industriel",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "rayonnement_solaire_industriel",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "rayonnement_solaire_industriel",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "lunettes_branches",
+            "target": "en_172",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "lunettes_masques",
+            "target": "en_172",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "ecran_facial",
+            "target": "en_172",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "protections_mains",
+            "target": "mains",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "protections_mains",
+            "target": "activite_caracteristique_soudeur",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "protections_mains",
+            "target": "en_407",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "protections_mains",
+            "target": "en_12477_a1",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "gants_antithermiques",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_antithermiques",
+            "target": "assemblage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "gants_antithermiques",
+            "target": "chaleur_degagee_soudage_assemblage",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_antithermiques",
+            "target": "mains",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "gants_antithermiques",
+            "target": "ignifuges_gants",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "gants_antithermiques",
+            "target": "propagation_flamme",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "gants_antithermiques",
+            "target": "projections_metaux",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_protection_chaleur_flamme",
+            "target": "chaleur",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_protection_chaleur_flamme",
+            "target": "flamme",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_protection_chaleur_flamme",
+            "target": "choix_vetements_selon_usage_analyse_risques",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "vetements_protection_chaleur_flamme",
+            "target": "nf_en_470_1",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "vetements_difficilement_combustibles",
+            "target": "isolants_vetements",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "vetements_difficilement_combustibles",
+            "target": "ignifuges_vetements",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "vetements_difficilement_combustibles",
+            "target": "propagation_flamme",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_difficilement_combustibles",
+            "target": "petites_projections_metaux",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "vetements_difficilement_combustibles",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "vetements_difficilement_combustibles",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "tablier_cuir",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "tablier_cuir",
+            "target": "cuir",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "tablier_cuir",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "manchettes_cuir",
+            "target": "avant_bras",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "manchettes_cuir",
+            "target": "cuir",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "manchettes_cuir",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "survetements_protection",
+            "target": "degagement_chaleur_important",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "survetements_protection",
+            "target": "isolation_source_chaleur",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "survetements_protection",
+            "target": "corps",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "vetements_protection_chaleur_flamme",
+            "target": "employeur_nettoyer_vetements_travail_regulierement",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "employeur_nettoyer_vetements_travail_regulierement",
+            "target": "enflammement_tenue_souillee_graisse",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "chaussures_securite",
+            "target": "port_chaussures_securite_obligatoire",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "chaussures_securite",
+            "target": "en_345",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "chaussures_securite_montantes_isolantes_chaleur",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "chaussures_securite_montantes_isolantes_chaleur",
+            "target": "montantes",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "chaussures_securite_montantes_isolantes_chaleur",
+            "target": "isolantes_chaleur_chaussures",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "chaussures_securite_montantes_isolantes_chaleur",
+            "target": "chaleur",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "chaussures_securite_montantes_isolantes_chaleur",
+            "target": "tige_chaussure",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "tige_chaussure",
+            "target": "limite_transfert_chaleur",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "tige_chaussure",
+            "target": "enflammement_consommation_contact_gouttes_metal_fusion",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "guetres",
+            "target": "nf_en_470_1",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "guetres",
+            "target": "guetres_repondent_criteres_protection_vetements",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "pantalon",
+            "target": "pantalon_doit_recouvrir_guetres",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "pantalon_doit_recouvrir_guetres",
+            "target": "projections_metal_brulent_soudeur",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "guetres",
+            "target": "projections_metaux",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "guetres",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "chaussures_securite",
+            "target": "traitement_antimicrobien_antifongique",
+            "type": "HAS_SPECIFICATION"
+        },
+        {
+            "source": "traitement_antimicrobien_antifongique",
+            "target": "developpement_bacteries",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "traitement_antimicrobien_antifongique",
+            "target": "developpement_champignons",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "pieds",
+            "target": "preserver_hygiene_pied",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "norme_nf_en_470_1",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "coton_ignifuge",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "cuir_traite_ignifuge",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "porter_pantalon_ignifuge",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "poches_exterieures_pantalon",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "poches_exterieures_pantalon",
+            "target": "rabat_poches",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "revers_pantalon",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "fermeture_glissiere_pantalon",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "accessoire_metallique_pantalon",
+            "type": "HAS_COMPONENT"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "fermer_poches_rabat_projections_metal",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "pas_de_revers_pantalon_projections_metal",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "aucun_accessoire_metallique_autorise_pantalon",
+            "type": "HAS_RULE"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "projections_metal",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "brulure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "poches_exterieures_pantalon",
+            "target": "brulure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "revers_pantalon",
+            "target": "brulure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "fermeture_glissiere_pantalon",
+            "target": "brulure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "fermeture_glissiere_pantalon",
+            "target": "impossibilite_oter_pantalon",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "accessoire_metallique_pantalon",
+            "target": "brulure",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "accessoire_metallique_pantalon",
+            "target": "impossibilite_oter_pantalon",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "pantalon_soudeur",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "cuissardes",
+            "target": "soudage",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "cuissardes",
+            "target": "chaleur",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "cuissardes",
+            "target": "projections_metal",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "cuissardes",
+            "target": "cuir",
+            "type": "MADE_OF"
+        },
+        {
+            "source": "cuissardes",
+            "target": "norme_nf_en_470_1",
+            "type": "COMPLIES_WITH"
+        },
+        {
+            "source": "cuissardes",
+            "target": "jambes",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "genouilleres",
+            "target": "travailler_genoux",
+            "type": "USED_FOR_ACTIVITY"
+        },
+        {
+            "source": "genouilleres",
+            "target": "genoux",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "genouilleres",
+            "target": "articulations",
+            "type": "PROTECTS_BODY_PART"
+        },
+        {
+            "source": "genouilleres",
+            "target": "syndrome_hydroma",
+            "type": "FIGHTS_AGAINST"
+        },
+        {
+            "source": "travailler_genoux",
+            "target": "porter_genouilleres_travail_genoux",
+            "type": "HAS_RULE"
+        }
+    ]
+}
